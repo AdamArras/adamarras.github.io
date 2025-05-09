@@ -31,7 +31,7 @@ Talks
   * Colloque Jeunes Probabilistes et Statisticiens, Oĺéron
   * GDR MEGA Probability Summer School, Saint-Malo
 
-Test [dowlad file](files/paper1.pdf)
+Test [dowlad file](/files/paper1.pdf)
 
 Refereeing
 ------
