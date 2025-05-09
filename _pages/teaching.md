@@ -7,34 +7,40 @@ redirect_from:
   - /resume
 ---
 
-Teaching
 
-Publications/Preprints
+2022-2023
 ------
 
-1. [Random Schrödinger operators and convolution on wreath products](https://arxiv.org/), arXiv preprint (2025).
-1. [Existence of absolutely continuous spectrum for Galton–Watson random trees](https://link.springer.com/article/10.1007/s00220-023-04798-3), with C.Bordenave, (CIMP 2023).
-1. [Spectral measures of random operators](/files/these.pdf), PhD (2023).
+* Analyse S1, L1 Portail Descartes, Aix-Marseille université.
+* Fonction d’un ou deux variables, Licence MIASHS, Aix-Marseille université.
+* Analyse complex M1, Aix-Marseille université.
 
-Talks
+* Outils Mathématiques pour l’ingénieur S3, PEIP, Polytech Marseille.
+* Analyse S3 (cours et TD), PEIP, Polytech Marseille. 
+
+2021-2022
 ------
-* 2024
-  * Research Seminar, Alfréd Rényi Institute of Mathematics, Budapest
-* 2023
-  * Probability seminar, IRMA, Strasbourg
-  * Workshop in Discrete Mathematics and Probability, Alfréd Rényi Institute of Mathematics, Budapest
-* 2022
-  * Probability seminar, UMPA, Lyon
-  * LdRAM Working Group, École Normale Supérieure de Lyon, Lyon
-  * GDR MEGA Probability Summer School, Aussois
-* 2021
-  * Colloque Jeunes Probabilistes et Statisticiens, Oĺéron
-  * GDR MEGA Probability Summer School, Saint-Malo
 
+* Analyse complex M1, Aix-Marseille université.
+* Outils mathematiques S3, PEIP, Polytech Marseille.
 
-
-Refereeing
+2020-2021
 ------
-1. Electronic Communications in Probability
-1. European Journal of Combinatorics 
+
+* Analyse S3 (cours et TD), PEIP, Polytech Marseille. 
+
+2019-2020
+------
+
+* Analyse S3 (cours et TD), PEIP Accès Santé, Polytech Marseille.
+  * [partiel](/files/2019_Partiel.pdf)
+  * [exam: sujet A](/files/2019_Examen_A.pdf)
+  * [exam: sujet B](/files/2019_Examen_B.pdf)
+  * [session de rattrapages](/files/2019_rattrapages.pdf)
+
+2016-2018
+------
+
+* Oral examiner in mathematics, Classes Préparatoires aux Grandes Écoles, lycée Jacques-Decour, Paris.
+
 

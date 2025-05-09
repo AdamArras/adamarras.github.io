@@ -12,7 +12,7 @@ My research focuses on the properties of large graphs and networks, at the inter
 Publications/Preprints
 ------
 
-1. [Random Schrödinger operators and convolution on wreath products](https://arxiv.org/), arXiv preprint (2025).
+1. [Random Schrödinger operators and convolution on wreath products](/files/arras2025random.pdf), arXiv preprint (2025).
 1. [Existence of absolutely continuous spectrum for Galton–Watson random trees](https://link.springer.com/article/10.1007/s00220-023-04798-3), with C.Bordenave, Communications in Mathematical Physics 2023, 403 (1), pp.495-527.
 1. [Spectral measures of random operators](/files/these.pdf), PhD (2023).
 
@@ -30,8 +30,6 @@ Talks
 * 2021
   * Colloque Jeunes Probabilistes et Statisticiens, Oĺéron
   * GDR MEGA Probability Summer School, Saint-Malo
-
-Test [dowlad file](/files/rdg.pdf)
 
 Refereeing
 ------
