@@ -28,8 +28,6 @@ Topic: Spectrum of large random graphs, spectral stability of infinite trees
 *2015–2019*  
 École Normale Supérieure Paris-Saclay, Cachan, France  
 - 2018–2019: Pre-doctoral Research Year Abroad — Georgia Institute of Technology, Atlanta, USA  
-  Supervisors: Prof. Pierre Youssef, Konstantin Tikhomirov  
-  Topic: Spectral gap of random graphs  
 - 2017–2018: Master 2: in Mathematics (Research) — [MVA](https://www.master-mva.com/): Mathématiques - Vision - Apprentissage  
 - 2016–2017: Master 1: Mathematics and Applications — Jacques Hadamard Master, Paris, France  
 - 2015–2016: Licence 3: Mathematics — ENS Paris-Saclay, Cachan, France
