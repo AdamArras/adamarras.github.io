@@ -12,6 +12,7 @@ My research focuses on the properties of large graphs and networks, at the inter
 Publications/Preprints
 ------
 
+1. Maximal Entropy Random Walks on Unimodular Networks (in preparation), with M.Abert and J.Kim
 1. [Random Schrödinger operators and convolution on wreath products](/files/arras2025random.pdf), arXiv preprint (2025).
 1. [Existence of absolutely continuous spectrum for Galton–Watson random trees](https://link.springer.com/article/10.1007/s00220-023-04798-3), with C.Bordenave, Communications in Mathematical Physics 2023, 403 (1), pp.495-527.
 1. [Spectral measures of random operators](/files/these.pdf), PhD (2023).
