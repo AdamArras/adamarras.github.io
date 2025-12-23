@@ -1,0 +1,297 @@
+---
+title: "Creating a Personal Website with Quarto"
+description: ""
+author: "Adam"
+date: today
+categories: [quarto, website, github]
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+---
+
+## What is Quarto?
+
+I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.
+
+This post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. The entire process takes about 30 minutes. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post.
+
+---
+
+## Overview
+
+There are three main steps, and the process typically takes about 30 minutes:
+
+1. Create a local Quarto website  
+2. Customize content and style  
+3. Publish the website online using GitHub Pages  
+
+---
+
+## Step 1: Create a local Quarto website
+
+### Install Quarto
+
+First, check that Quarto is correctly installed. If not, download and install it from: [quarto.org](https://quarto.org)
+
+
+---
+
+### Create a website project
+
+From a terminal, navigate to the directory where you want to create your website and run:
+
+```bash
+quarto create-project academic-site --type website
+cd academic-site
+```
+
+This command generates a basic Quarto website structure.
+
+If you prefer not to use the terminal, you can download the minimal template used in this post:
+
+<a href="assets/academic-site.zip" class="btn btn-primary" download> Download the website (ZIP) </a>
+
+After unzipping the archive, you can start working immediately inside the resulting directory.
+
+
+---
+
+### Understanding the files
+
+The website template consists of four files, each with a distinct role:
+
+- **`_quarto.yml` — Site configuration**  
+  This file defines the global structure and behavior of the website, including the site title, navigation bar, theme, table of contents, and output format. It is written in [YAML](https://en.wikipedia.org/wiki/YAML) (which stands for *Yet Another Markup Language*) and is the central configuration file that Quarto reads when rendering the site.
+
+- **`styles.css` — Custom styling**  
+  This file allows you to override or extend the default Quarto theme using [CSS](https://en.wikipedia.org/wiki/CSS). It is useful for adjusting typography, spacing, colors, and other visual elements without modifying the theme itself.
+
+- **`.qmd` — Quarto pages**  
+  The remaining two files are `.qmd` files. The extension `.qmd` stands for *Quarto Markdown*: `q` for Quarto and `md` for Markdown. These files define the content of the website pages.
+
+  - **`index.qmd`** is the main landing page of your website. It typically contains a short introduction and other information that visitors should see on the first page.
+
+  - **`about.qmd`** is an example of an additional page linked directly from the navigation bar. You can later add other pages (for example, `research.qmd`, `publications.qmd`, or `teaching.qmd`) in the same way.
+
+---
+
+## Preview the site locally
+
+To preview the website during development, run:
+
+```bash
+quarto preview
+```
+
+Make sure you are in the project root directory. This command starts a local development server that automatically rebuilds the site when files change. You can then view the website in your web browser.
+
+If you prefer not to use the terminal, you can preview the site from an editor such as VS Code (with the Quarto extension) or RStudio. These editors provide buttons to render or preview the website, but they internally run the same `quarto preview` command.
+
+Both macOS and Windows include a built-in terminal, which is sufficient to run the Quarto commands shown in this tutorial.
+
+---
+
+## Step 2: Customizing the style
+
+### Configuration file
+
+We start with the site configuration file, `_quarto.yml`, which controls:
+
+- the overall site structure
+- global metadata (title, description)
+- navigation, theme, and layout options
+
+#### Personalizing site identity (metadata & favicon) 
+
+Set your site identity early:
+
+```yaml
+website:
+  title: "Nom Prénom"
+  description: "Research, teaching, and notes"
+  favicon: favicon.png
+```
+
+The title appears in browser tabs and often in search results, while the description may be used by search engines and social previews. The favicon improves recognizability when multiple tabs are open. Use a small, simple image (for example, your initials), typically 32×32 pixels, in PNG format.
+
+#### Navigation bar as an information hierarchy
+
+The ordering of the navigation bar reflects what you want visitors to find first:
+
+```yaml
+navbar:
+  left:
+    - text: Home
+      href: index.qmd
+    - text: Research
+      href: research.qmd
+    - text: Teaching
+      href: teaching.qmd
+    - text: Notes
+      href: notes.qmd
+    - text: About
+      href: about.qmd
+```
+
+The order of the entries here determines their order in the navigation bar. Each href must correspond to an existing .qmd file. For this reason, it is good practice to create placeholder pages immediately. From a terminal, run:
+
+```bash
+touch research.qmd teaching.qmd notes.qmd
+```
+
+Alternatively, you can simply create files with these names using your editor.
+
+A minimal template for a new page is:
+
+```markdown
+---
+title: "Research"
+toc: false
+---
+
+Content coming soon.
+```
+
+Every page should start with YAML front matter, even if minimal. In particular:
+
+In practice:
+- Set `toc: false` for short pages (Home, About)
+- Set `toc: true` for long pages (Notes, Research)
+
+#### Refresh the website
+
+After editing `_quarto.yml`, changes may not be picked up reliably by the preview server. In that case, stop the server (press **Ctrl+C** in the corresponding terminal), restart it by running `quarto preview`, and then refresh the page in your web browser.
+
+### Custom styling (`styles.css`)
+
+The CSS file deals with the presentation
+- How things look
+- Fonts, spacing, colors
+- Small layout refinements
+
+Theme defaults can be overridden using CSS:
+
+```css
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+}
+
+.navbar-title {
+  font-weight: bold;
+}
+```
+
+Afterward, refresh the Quarto preview.
+---
+
+### Customizing Quarto pages
+
+#### Example, the research page
+
+First, make sure it starts with a header of the form 
+
+```markdown
+---
+title: "Research"
+toc: true
+number-sections: false
+---
+```
+
+Then you can progressively add section headers.
+
+```markdown
+## Preprints
+## Journal articles
+## Talks
+```
+
+Cross-references and internal links. Pages can link to each other using relative links: 
+
+
+```markdown
+See the [Research](research.qmd) page for publications.
+```
+
+
+At this stage, the website has a stable structure, clear navigation, and consistent metadata. You can refine the visual appearance, fill in the content of the website, or directly go to the last step.
+
+
+## Step 3: Publish the website with GitHub Pages
+
+We will use **GitHub Pages** to deploy the website online. This solution has several advantages: it is free, reliable, and well integrated with version control. One limitation is that the website URL will follow the form `username.github.io`.
+
+---
+
+### Create a GitHub repository
+
+On GitHub, create a new repository (for example, `academic-site`).Do **not** initialize it with a README
+
+---
+
+### Configure Quarto to publish from `main`
+
+Edit the file `_quarto.yml` and ensure the following configuration is present:
+
+```yaml
+project:
+  type: website
+  output-dir: docs
+```
+
+This tells Quarto to render the website into the `docs/` directory, which GitHub Pages can serve directly from the main branch.
+
+---
+
+### Push your project to GitHub
+
+From the root directory of your website project, run:
+
+```bash
+git init
+git add .
+git commit -m "Initial Quarto website"
+git branch -M main
+git remote add origin https://github.com/USERNAME/academic-site.git
+git push -u origin main
+```
+
+Replace `USERNAME` with your GitHub username.
+
+At this stage, both the Quarto source files and the rendered website (in `docs/`) are stored on GitHub.
+
+---
+
+### Enable GitHub Pages
+
+On GitHub:
+
+1. Open the repository **Settings**
+2. Go to **Pages**
+3. Under **Source**, select:
+   - Branch: `main`
+   - Folder: `/docs`
+4. Save
+
+GitHub Pages will now serve the website directly from the `docs/` directory.
+
+---
+
+### Updating the website
+
+After modifying the content of the site, run:
+
+```bash
+quarto render
+git add docs
+git commit -m "Update website"
+git push
+```
+
+The updated version will be published automatically.
+
+---
+

@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "blog2.html",
+    "href": "blog2.html",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "",
+    "text": "I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.\nThis post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. The entire process takes about 30 minutes. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post."
+  },
+  {
+    "objectID": "blog2.html#what-is-quarto",
+    "href": "blog2.html#what-is-quarto",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "",
+    "text": "I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.\nThis post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. The entire process takes about 30 minutes. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post."
+  },
+  {
+    "objectID": "blog2.html#overview",
+    "href": "blog2.html#overview",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Overview",
+    "text": "Overview\nThere are three main steps, and the process typically takes about 30 minutes:\n\nCreate a local Quarto website\n\nCustomize content and style\n\nPublish the website online using GitHub Pages"
+  },
+  {
+    "objectID": "blog2.html#step-1-create-a-local-quarto-website",
+    "href": "blog2.html#step-1-create-a-local-quarto-website",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Step 1: Create a local Quarto website",
+    "text": "Step 1: Create a local Quarto website\n\nInstall Quarto\nFirst, check that Quarto is correctly installed. If not, download and install it from: quarto.org\n\n\n\nCreate a website project\nFrom a terminal, navigate to the directory where you want to create your website and run:\nquarto create-project academic-site --type website\ncd academic-site\nThis command generates a basic Quarto website structure.\nIf you prefer not to use the terminal, you can download the minimal template used in this post:\n Download the website (ZIP) \nAfter unzipping the archive, you can start working immediately inside the resulting directory.\n\n\n\nUnderstanding the files\nThe website template consists of four files, each with a distinct role:\n\n_quarto.yml — Site configuration\nThis file defines the global structure and behavior of the website, including the site title, navigation bar, theme, table of contents, and output format. It is written in YAML (which stands for Yet Another Markup Language) and is the central configuration file that Quarto reads when rendering the site.\nstyles.css — Custom styling\nThis file allows you to override or extend the default Quarto theme using CSS. It is useful for adjusting typography, spacing, colors, and other visual elements without modifying the theme itself.\n.qmd — Quarto pages\nThe remaining two files are .qmd files. The extension .qmd stands for Quarto Markdown: q for Quarto and md for Markdown. These files define the content of the website pages.\n\nindex.qmd is the main landing page of your website. It typically contains a short introduction and other information that visitors should see on the first page.\nabout.qmd is an example of an additional page linked directly from the navigation bar. You can later add other pages (for example, research.qmd, publications.qmd, or teaching.qmd) in the same way."
+  },
+  {
+    "objectID": "blog2.html#preview-the-site-locally",
+    "href": "blog2.html#preview-the-site-locally",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Preview the site locally",
+    "text": "Preview the site locally\nTo preview the website during development, run:\nquarto preview\nMake sure you are in the project root directory. This command starts a local development server that automatically rebuilds the site when files change. You can then view the website in your web browser.\nIf you prefer not to use the terminal, you can preview the site from an editor such as VS Code (with the Quarto extension) or RStudio. These editors provide buttons to render or preview the website, but they internally run the same quarto preview command.\nBoth macOS and Windows include a built-in terminal, which is sufficient to run the Quarto commands shown in this tutorial."
+  },
+  {
+    "objectID": "blog2.html#step-2-customizing-the-style",
+    "href": "blog2.html#step-2-customizing-the-style",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Step 2: Customizing the style",
+    "text": "Step 2: Customizing the style\n\nConfiguration file\nWe start with the site configuration file, _quarto.yml, which controls:\n\nthe overall site structure\nglobal metadata (title, description)\nnavigation, theme, and layout options\n\n\nPersonalizing site identity (metadata & favicon)\nSet your site identity early:\nwebsite:\n  title: \"Nom Prénom\"\n  description: \"Research, teaching, and notes\"\n  favicon: favicon.png\nThe title appears in browser tabs and often in search results, while the description may be used by search engines and social previews. The favicon improves recognizability when multiple tabs are open. Use a small, simple image (for example, your initials), typically 32×32 pixels, in PNG format.\n\n\nNavigation bar as an information hierarchy\nThe ordering of the navigation bar reflects what you want visitors to find first:\nnavbar:\n  left:\n    - text: Home\n      href: index.qmd\n    - text: Research\n      href: research.qmd\n    - text: Teaching\n      href: teaching.qmd\n    - text: Notes\n      href: notes.qmd\n    - text: About\n      href: about.qmd\nThe order of the entries here determines their order in the navigation bar. Each href must correspond to an existing .qmd file. For this reason, it is good practice to create placeholder pages immediately. From a terminal, run:\ntouch research.qmd teaching.qmd notes.qmd\nAlternatively, you can simply create files with these names using your editor.\nA minimal template for a new page is:\n---\ntitle: \"Research\"\ntoc: false\n---\n\nContent coming soon.\nEvery page should start with YAML front matter, even if minimal. In particular:\nIn practice: - Set toc: false for short pages (Home, About) - Set toc: true for long pages (Notes, Research)\n\n\nRefresh the website\nAfter editing _quarto.yml, changes may not be picked up reliably by the preview server. In that case, stop the server (press Ctrl+C in the corresponding terminal), restart it by running quarto preview, and then refresh the page in your web browser.\n\n\n\nCustom styling (styles.css)\nThe CSS file deals with the presentation - How things look - Fonts, spacing, colors - Small layout refinements\nTheme defaults can be overridden using CSS:\nh1, h2, h3 {\n  font-family: \"Georgia\", serif;\n}\n\n.navbar-title {\n  font-weight: bold;\n}"
+  },
+  {
+    "objectID": "blog2.html#afterward-refresh-the-quarto-preview.",
+    "href": "blog2.html#afterward-refresh-the-quarto-preview.",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Afterward, refresh the Quarto preview.",
+    "text": "Afterward, refresh the Quarto preview.\n\nCustomizing Quarto pages\n\nExample, the research page\nFirst, make sure it starts with a header of the form\n---\ntitle: \"Research\"\ntoc: true\nnumber-sections: false\n---\nThen you can progressively add section headers.\n## Preprints\n## Journal articles\n## Talks\nCross-references and internal links. Pages can link to each other using relative links:\nSee the [Research](research.qmd) page for publications.\nAt this stage, the website has a stable structure, clear navigation, and consistent metadata. You can refine the visual appearance, fill in the content of the website, or directly go to the last step."
+  },
+  {
+    "objectID": "blog2.html#step-3-publish-the-website-with-github-pages",
+    "href": "blog2.html#step-3-publish-the-website-with-github-pages",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Step 3: Publish the website with GitHub Pages",
+    "text": "Step 3: Publish the website with GitHub Pages\nWe will use GitHub Pages to deploy the website online. This solution has several advantages: it is free, reliable, and well integrated with version control. One limitation is that the website URL will follow the form username.github.io.\n\n\nCreate a GitHub repository\nOn GitHub, create a new repository (for example, academic-site).Do not initialize it with a README\n\n\n\nConfigure Quarto to publish from main\nEdit the file _quarto.yml and ensure the following configuration is present:\nproject:\n  type: website\n  output-dir: docs\nThis tells Quarto to render the website into the docs/ directory, which GitHub Pages can serve directly from the main branch.\n\n\n\nPush your project to GitHub\nFrom the root directory of your website project, run:\ngit init\ngit add .\ngit commit -m \"Initial Quarto website\"\ngit branch -M main\ngit remote add origin https://github.com/USERNAME/academic-site.git\ngit push -u origin main\nReplace USERNAME with your GitHub username.\nAt this stage, both the Quarto source files and the rendered website (in docs/) are stored on GitHub.\n\n\n\nEnable GitHub Pages\nOn GitHub:\n\nOpen the repository Settings\nGo to Pages\nUnder Source, select:\n\nBranch: main\nFolder: /docs\n\nSave\n\nGitHub Pages will now serve the website directly from the docs/ directory.\n\n\n\nUpdating the website\nAfter modifying the content of the site, run:\nquarto render\ngit add docs\ngit commit -m \"Update website\"\ngit push\nThe updated version will be published automatically."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Since completing the MVA Master’s program, I have also followed developments in technology and AI, mainly through Hacker News.\nThere are several high-quality online courses freely available. Among them, I particularly recommend:\nMathematics and physics\n\nXavier Viennot’s course on bijective combinatorics\nFrederic P. Schuller’s course on the mathematical foundations of theoretical physics\n\nAI\n\nJeremy Howard and Sylvain Gugger’s Practical Deep Learning for Coders"
+  },
+  {
+    "objectID": "about.html#online-content",
+    "href": "about.html#online-content",
+    "title": "About",
+    "section": "",
+    "text": "Since completing the MVA Master’s program, I have also followed developments in technology and AI, mainly through Hacker News.\nThere are several high-quality online courses freely available. Among them, I particularly recommend:\nMathematics and physics\n\nXavier Viennot’s course on bijective combinatorics\nFrederic P. Schuller’s course on the mathematical foundations of theoretical physics\n\nAI\n\nJeremy Howard and Sylvain Gugger’s Practical Deep Learning for Coders"
+  },
+  {
+    "objectID": "about.html#science-outreach",
+    "href": "about.html#science-outreach",
+    "title": "About",
+    "section": "Science outreach",
+    "text": "Science outreach\nIn 2023, I participated in the project Regards de Géomètre, organized by Les Maths en Scène. The aim was to combine mathematics and artistic creation.\nThe slides from my presentation, intended for high school students (in French), are available here: PDF."
+  },
+  {
+    "objectID": "about.html#reading",
+    "href": "about.html#reading",
+    "title": "About",
+    "section": "Reading",
+    "text": "Reading\nA selection of books I have particularly enjoyed. I would be happy to receive recommendations in a similar spirit.\n\nAlbert Lautman : La pensée mathématique et la réalité physique (1952)\nRichard P. Feynman, Robert B. Leighton, Matthew Sands :\nThe Feynman Lectures on Physics (1964)\nSaunders Mac Lane : Mathematics: Form and Function (1986)\nDonella H. Meadows, Dennis L. Meadows, Jørgen Randers,\nWilliam W. Behrens : The Limits to Growth (1972)"
+  },
+  {
+    "objectID": "about.html#section",
+    "href": "about.html#section",
+    "title": "About",
+    "section": "",
+    "text": "Y.-J. Ringard : Mustard Watches"
+  },
+  {
+    "objectID": "about.html#section-1",
+    "href": "about.html#section-1",
+    "title": "About",
+    "section": "",
+    "text": "This website is built using Quarto, an open-source, Markdown-based system for scientific and technical publishing.\nSee my blog post on setting up an academic website with Quarto and GitHub Pages."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on the properties of large graphs and networks, at the intersection of probability, geometry, and spectral analysis."
+  },
+  {
+    "objectID": "research.html#publications-and-preprints",
+    "href": "research.html#publications-and-preprints",
+    "title": "Research",
+    "section": "Publications and Preprints",
+    "text": "Publications and Preprints\n\nQuenched Path Limits and Periodization Stability for Tilted Brownian Motion in Poissonian Potentials on \\(\\mathbb{H}^d\\),\nMiklós Abért, Adam Arras, Jaelin Kim. In preparation.\nLarge Deviations for Triangle Counts in Sparse Directed Random Graphs,\nAdam Arras, Pierfrancesco Dionigi. In preparation.\nThe Uniform Random Walk on Graphs, Loop Processes and Graphings,\nMiklós Abért, Adam Arras, Jaelin Kim. arXiv preprint (2025).\nhttps://arxiv.org/abs/2512.09166\nRandom Schrödinger Operators and Convolution on Wreath Products,\nAdam Arras. arXiv preprint (2025).\nhttps://arxiv.org/abs/2505.22485\nExistence of Absolutely Continuous Spectrum for Galton–Watson Random Trees,\nAdam Arras, Charles Bordenave. Communications in Mathematical Physics 403 (2023), no. 1, 495–527.\nhttps://link.springer.com/article/10.1007/s00220-023-04798-3\nSpectral Measures of Random Operators,\nAdam Arras. PhD thesis, Aix-Marseille University (2023).\nPDF"
+  },
+  {
+    "objectID": "research.html#talks",
+    "href": "research.html#talks",
+    "title": "Research",
+    "section": "Talks",
+    "text": "Talks\n\n2024\n\nResearch Seminar, Alfréd Rényi Institute of Mathematics, Budapest\n\n\n\n2023\n\nProbability Seminar, IRMA, Strasbourg\n\nWorkshop in Discrete Mathematics and Probability, Alfréd Rényi Institute of Mathematics, Budapest\n\n\n\n2022\n\nProbability Seminar, UMPA, Lyon\n\nLdRAM Working Group, École Normale Supérieure de Lyon, Lyon\n\nGDR MEGA Probability Summer School, Aussois\n\n\n\n2021\n\nColloque Jeunes Probabilistes et Statisticiens, Oléron\n\nGDR MEGA Probability Summer School, Saint-Malo"
+  },
+  {
+    "objectID": "research.html#refereeing",
+    "href": "research.html#refereeing",
+    "title": "Research",
+    "section": "Refereeing",
+    "text": "Refereeing\n\nElectronic Communications in Probability\n\nEuropean Journal of Combinatorics\n\nRefereeing invitations in probability, random graphs, and spectral theory are welcome."
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "CV",
+    "section": "",
+    "text": "2023–Present — Postdoctoral Researcher,\nDYNASNET,\nAlfréd Rényi Institute of Mathematics, Budapest\n2022–2023 — Teaching and Research Assistant (ATER),\nAix–Marseille University, Marseille\n2019–2023 — PhD in Mathematics,\nInstitut de Mathématiques de Marseille"
+  },
+  {
+    "objectID": "CV.html#positions",
+    "href": "CV.html#positions",
+    "title": "CV",
+    "section": "",
+    "text": "2023–Present — Postdoctoral Researcher,\nDYNASNET,\nAlfréd Rényi Institute of Mathematics, Budapest\n2022–2023 — Teaching and Research Assistant (ATER),\nAix–Marseille University, Marseille\n2019–2023 — PhD in Mathematics,\nInstitut de Mathématiques de Marseille"
+  },
+  {
+    "objectID": "CV.html#education",
+    "href": "CV.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\n2015–2019 — École Normale Supérieure Paris-Saclay\n(formerly ENS Cachan)\n\n2018–2019 — Pre-doctoral research year abroad,\nSchool of Mathematics,\nGeorgia Institute of Technology, Atlanta\n2017–2018 — Master\nMVA — Mathématiques, Vision, Apprentissage\n\n\n\nHere is a brief CV."
+  },
+  {
+    "objectID": "assets/academic-site/about.html",
+    "href": "assets/academic-site/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "assets/academic-site/index.html",
+    "href": "assets/academic-site/index.html",
+    "title": "academic-site",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Adam Arras",
+    "section": "",
+    "text": "I am a postdoctoral researcher in the DYNASNET group at the Alfréd Rényi Institute of Mathematics, working with Miklós Abért.\nI completed my PhD at Aix–Marseille University under the supervision of Charles Bordenave, after graduating from École normale supérieure Paris-Saclay (formerly ENS Cachan, Master MVA).\nMy research lies at the intersection of probability, geometry, and spectral analysis, with a focus on large random graphs and complex networks.\n\nContact: arras@renyi.hu"
+  },
+  {
+    "objectID": "posts/posts-1/index.html",
+    "href": "posts/posts-1/index.html",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "",
+    "text": "I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.\nThis post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. The entire process takes about 30 minutes. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post."
+  },
+  {
+    "objectID": "posts/posts-1/index.html#what-is-quarto",
+    "href": "posts/posts-1/index.html#what-is-quarto",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "",
+    "text": "I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.\nThis post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. The entire process takes about 30 minutes. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post."
+  },
+  {
+    "objectID": "posts/posts-1/index.html#overview",
+    "href": "posts/posts-1/index.html#overview",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Overview",
+    "text": "Overview\nThere are three main steps, and the process typically takes about 30 minutes:\n\nCreate a local Quarto website\n\nCustomize content and style\n\nPublish the website online using GitHub Pages"
+  },
+  {
+    "objectID": "posts/posts-1/index.html#step-1-create-a-local-quarto-website",
+    "href": "posts/posts-1/index.html#step-1-create-a-local-quarto-website",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Step 1: Create a local Quarto website",
+    "text": "Step 1: Create a local Quarto website\n\nInstall Quarto\nFirst, check that Quarto is correctly installed. If not, download and install it from: quarto.org\n\n\n\nCreate a website project\nFrom a terminal, navigate to the directory where you want to create your website and run:\nquarto create-project academic-site --type website\ncd academic-site\nThis command generates a basic Quarto website structure.\nIf you prefer not to use the terminal, you can download the minimal template used in this post:\n Download the website (ZIP) \nAfter unzipping the archive, you can start working immediately inside the resulting directory.\n\n\n\nUnderstanding the files\nThe website template consists of four files, each with a distinct role:\n\n_quarto.yml — Site configuration\nThis file defines the global structure and behavior of the website, including the site title, navigation bar, theme, table of contents, and output format. It is written in YAML (which stands for Yet Another Markup Language) and is the central configuration file that Quarto reads when rendering the site.\nstyles.css — Custom styling\nThis file allows you to override or extend the default Quarto theme using CSS. It is useful for adjusting typography, spacing, colors, and other visual elements without modifying the theme itself.\n.qmd — Quarto pages\nThe remaining two files are .qmd files. The extension .qmd stands for Quarto Markdown: q for Quarto and md for Markdown. These files define the content of the website pages.\n\nindex.qmd is the main landing page of your website. It typically contains a short introduction and other information that visitors should see on the first page.\nabout.qmd is an example of an additional page linked directly from the navigation bar. You can later add other pages (for example, research.qmd, publications.qmd, or teaching.qmd) in the same way."
+  },
+  {
+    "objectID": "posts/posts-1/index.html#preview-the-site-locally",
+    "href": "posts/posts-1/index.html#preview-the-site-locally",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Preview the site locally",
+    "text": "Preview the site locally\nTo preview the website during development, run:\nquarto preview\nMake sure you are in the project root directory. This command starts a local development server that automatically rebuilds the site when files change. You can then view the website in your web browser.\nIf you prefer not to use the terminal, you can preview the site from an editor such as VS Code (with the Quarto extension) or RStudio. These editors provide buttons to render or preview the website, but they internally run the same quarto preview command.\nBoth macOS and Windows include a built-in terminal, which is sufficient to run the Quarto commands shown in this tutorial."
+  },
+  {
+    "objectID": "posts/posts-1/index.html#step-2-customizing-the-style",
+    "href": "posts/posts-1/index.html#step-2-customizing-the-style",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Step 2: Customizing the style",
+    "text": "Step 2: Customizing the style\n\nConfiguration file\nWe start with the site configuration file, _quarto.yml, which controls:\n\nthe overall site structure\nglobal metadata (title, description)\nnavigation, theme, and layout options\n\n\nPersonalizing site identity (metadata & favicon)\nSet your site identity early:\nwebsite:\n  title: \"Nom Prénom\"\n  description: \"Research, teaching, and notes\"\n  favicon: favicon.png\nThe title appears in browser tabs and often in search results, while the description may be used by search engines and social previews. The favicon improves recognizability when multiple tabs are open. Use a small, simple image (for example, your initials), typically 32×32 pixels, in PNG format.\n\n\nNavigation bar as an information hierarchy\nThe ordering of the navigation bar reflects what you want visitors to find first:\nnavbar:\n  left:\n    - text: Home\n      href: index.qmd\n    - text: Research\n      href: research.qmd\n    - text: Teaching\n      href: teaching.qmd\n    - text: Notes\n      href: notes.qmd\n    - text: About\n      href: about.qmd\nThe order of the entries here determines their order in the navigation bar. Each href must correspond to an existing .qmd file. For this reason, it is good practice to create placeholder pages immediately. From a terminal, run:\ntouch research.qmd teaching.qmd notes.qmd\nAlternatively, you can simply create files with these names using your editor.\nA minimal template for a new page is:\n---\ntitle: \"Research\"\ntoc: false\n---\n\nContent coming soon.\nEvery page should start with YAML front matter, even if minimal. In particular:\nIn practice: - Set toc: false for short pages (Home, About) - Set toc: true for long pages (Notes, Research)\n\n\nRefresh the website\nAfter editing _quarto.yml, changes may not be picked up reliably by the preview server. In that case, stop the server (press Ctrl+C in the corresponding terminal), restart it by running quarto preview, and then refresh the page in your web browser.\n\n\n\nCustom styling (styles.css)\nThe CSS file deals with the presentation - How things look - Fonts, spacing, colors - Small layout refinements\nTheme defaults can be overridden using CSS:\nh1, h2, h3 {\n  font-family: \"Georgia\", serif;\n}\n\n.navbar-title {\n  font-weight: bold;\n}"
+  },
+  {
+    "objectID": "posts/posts-1/index.html#afterward-refresh-the-quarto-preview.",
+    "href": "posts/posts-1/index.html#afterward-refresh-the-quarto-preview.",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Afterward, refresh the Quarto preview.",
+    "text": "Afterward, refresh the Quarto preview.\n\nCustomizing Quarto pages\n\nExample, the research page\nFirst, make sure it starts with a header of the form\n---\ntitle: \"Research\"\ntoc: true\nnumber-sections: false\n---\nThen you can progressively add section headers.\n## Preprints\n## Journal articles\n## Talks\nCross-references and internal links. Pages can link to each other using relative links:\nSee the [Research](research.qmd) page for publications.\nAt this stage, the website has a stable structure, clear navigation, and consistent metadata. You can refine the visual appearance, fill in the content of the website, or directly go to the last step."
+  },
+  {
+    "objectID": "posts/posts-1/index.html#step-3-publish-the-website-with-github-pages",
+    "href": "posts/posts-1/index.html#step-3-publish-the-website-with-github-pages",
+    "title": "Creating a Personal Website with Quarto",
+    "section": "Step 3: Publish the website with GitHub Pages",
+    "text": "Step 3: Publish the website with GitHub Pages\nWe will use GitHub Pages to deploy the website online. This solution has several advantages: it is free, reliable, and well integrated with version control. One limitation is that the website URL will follow the form username.github.io.\n\n\nCreate a GitHub repository\nOn GitHub, create a new repository (for example, academic-site).Do not initialize it with a README\n\n\n\nConfigure Quarto to publish from main\nEdit the file _quarto.yml and ensure the following configuration is present:\nproject:\n  type: website\n  output-dir: docs\nThis tells Quarto to render the website into the docs/ directory, which GitHub Pages can serve directly from the main branch.\n\n\n\nPush your project to GitHub\nFrom the root directory of your website project, run:\ngit init\ngit add .\ngit commit -m \"Initial Quarto website\"\ngit branch -M main\ngit remote add origin https://github.com/USERNAME/academic-site.git\ngit push -u origin main\nReplace USERNAME with your GitHub username.\nAt this stage, both the Quarto source files and the rendered website (in docs/) are stored on GitHub.\n\n\n\nEnable GitHub Pages\nOn GitHub:\n\nOpen the repository Settings\nGo to Pages\nUnder Source, select:\n\nBranch: main\nFolder: /docs\n\nSave\n\nGitHub Pages will now serve the website directly from the docs/ directory.\n\n\n\nUpdating the website\nAfter modifying the content of the site, run:\nquarto render\ngit add docs\ngit commit -m \"Update website\"\ngit push\nThe updated version will be published automatically."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Outils mathématiques pour l’ingénieur — 2e année (CM et TD)\nAnalyse S3 — 2e année (CM et TD)\nTD1 · TD2 · TD3 · TD4 · Questions de cours\n\n\n\n\n\nAnalyse complexe — M1 (TD)\nAnalyse S2 — L1 Portail Descartes (TD)\nTD1 · TD2 · TD3 · TD4 · TD5 · TD6\nFonctions d’une ou deux variables — Licence MIASHS (TD)"
+  },
+  {
+    "objectID": "teaching.html#section",
+    "href": "teaching.html#section",
+    "title": "Teaching",
+    "section": "",
+    "text": "Outils mathématiques pour l’ingénieur — 2e année (CM et TD)\nAnalyse S3 — 2e année (CM et TD)\nTD1 · TD2 · TD3 · TD4 · Questions de cours\n\n\n\n\n\nAnalyse complexe — M1 (TD)\nAnalyse S2 — L1 Portail Descartes (TD)\nTD1 · TD2 · TD3 · TD4 · TD5 · TD6\nFonctions d’une ou deux variables — Licence MIASHS (TD)"
+  },
+  {
+    "objectID": "teaching.html#section-1",
+    "href": "teaching.html#section-1",
+    "title": "Teaching",
+    "section": "2021–2022",
+    "text": "2021–2022\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nOutils mathématiques pour l’ingénieur S3 — 2e année (CM et TD)\nExamen · Corrigé\n\n\n\nAix-Marseille Université\n\nAnalyse complexe — M1 (TD)"
+  },
+  {
+    "objectID": "teaching.html#section-2",
+    "href": "teaching.html#section-2",
+    "title": "Teaching",
+    "section": "2020–2021",
+    "text": "2020–2021\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nAnalyse S3 — 2e année (CM et TD)\nTD Suites récurrentes linéaires · Examen · TD révisions · Session de rattrapage"
+  },
+  {
+    "objectID": "teaching.html#section-3",
+    "href": "teaching.html#section-3",
+    "title": "Teaching",
+    "section": "2019–2020",
+    "text": "2019–2020\n\nPolytech Marseille, Prépa intégrée (PEIP Accès Santé)\n\nAnalyse S3 — 2e année (CM et TD)\nPartiel · Examen sujet A · Examen sujet B · Session de rattrapage"
+  },
+  {
+    "objectID": "teaching.html#section-4",
+    "href": "teaching.html#section-4",
+    "title": "Teaching",
+    "section": "2016–2018",
+    "text": "2016–2018\n\nCPGE, Lycée Jacques-Decour (Paris)\n\nColles de mathématiques — PCSI"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Creating a Personal Website with Quarto\n\n\n\nquarto\n\nwebsite\n\ngithub\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "notes",
+    "section": "",
+    "text": "Content in notes coming soon."
+  }
+]

@@ -1,0 +1,59 @@
+---
+title: "Research"
+toc: false
+---
+
+My research focuses on the properties of large graphs and networks, at the
+intersection of probability, geometry, and spectral analysis.
+
+## Publications and Preprints
+
+1. **Quenched Path Limits and Periodization Stability for Tilted Brownian Motion
+   in Poissonian Potentials on $\mathbb{H}^d$**,  
+   Miklós Abért, Adam Arras, Jaelin Kim. *In preparation*.
+
+2. **Large Deviations for Triangle Counts in Sparse Directed Random Graphs**,  
+   Adam Arras, Pierfrancesco Dionigi. *In preparation*.
+
+3. **The Uniform Random Walk on Graphs, Loop Processes and Graphings**,  
+   Miklós Abért, Adam Arras, Jaelin Kim. *arXiv preprint* (2025).  
+   <https://arxiv.org/abs/2512.09166>
+
+4. **Random Schrödinger Operators and Convolution on Wreath Products**,  
+   Adam Arras. *arXiv preprint* (2025).  
+   <https://arxiv.org/abs/2505.22485>
+
+5. **Existence of Absolutely Continuous Spectrum for Galton–Watson Random Trees**,  
+   Adam Arras, Charles Bordenave. *Communications in Mathematical Physics*
+   **403** (2023), no. 1, 495–527.  
+   <https://link.springer.com/article/10.1007/s00220-023-04798-3>
+
+6. **Spectral Measures of Random Operators**,  
+   Adam Arras. PhD thesis, Aix-Marseille University (2023).  
+   [PDF](assets/pdf/these.pdf)
+
+## Talks
+
+### 2024
+- Research Seminar, Alfréd Rényi Institute of Mathematics, Budapest
+
+### 2023
+- Probability Seminar, IRMA, Strasbourg  
+- Workshop in Discrete Mathematics and Probability, Alfréd Rényi Institute of Mathematics, Budapest
+
+### 2022
+- Probability Seminar, UMPA, Lyon  
+- LdRAM Working Group, École Normale Supérieure de Lyon, Lyon  
+- GDR MEGA Probability Summer School, Aussois
+
+### 2021
+- Colloque Jeunes Probabilistes et Statisticiens, Oléron  
+- GDR MEGA Probability Summer School, Saint-Malo
+
+## Refereeing
+
+- *Electronic Communications in Probability*  
+- *European Journal of Combinatorics*
+
+Refereeing invitations in probability, random graphs, and spectral theory are welcome.
+
