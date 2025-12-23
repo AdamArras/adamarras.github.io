@@ -1,0 +1,47 @@
+/* css styles */
+
+body {
+  line-height: 1.6;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+h3 {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+
+.social-links .ai::before,
+.social-links .fa-github::before {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Hide the title metadata block (e.g. "Modified December 16, 2025") */
+.quarto-title-meta {
+  display: none !important;
+}
+
