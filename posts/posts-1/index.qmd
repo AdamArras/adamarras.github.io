@@ -296,4 +296,10 @@ The updated version will be published automatically.
 
 ---
 
+Contragts, you re academic page is now set up. If you want to personalize it, here are some usefull links.
 
+- [Quarto gallery](https://quarto.org/docs/gallery/#websites)
+
+- [Modifying the Default Quarto Blog Structure](https://www.ericekholm.com/posts/demo-quarto-site/?utm_source=chatgpt.com)
+
+---
