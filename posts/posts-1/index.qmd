@@ -15,13 +15,13 @@ format:
 
 I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.
 
-This post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. The entire process takes about 30 minutes. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post.
+This post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post.
 
 ---
 
 ## Overview
 
-There are three main steps, and the process typically takes about 30 minutes:
+There are three main steps, it takes about 30 minutes:
 
 1. Create a local Quarto website  
 2. Customize content and style  
@@ -221,7 +221,9 @@ At this stage, the website has a stable structure, clear navigation, and consist
 
 ## Step 3: Publish the website with GitHub Pages
 
-We will use **GitHub Pages** to deploy the website online. This solution has several advantages: it is free, reliable, and well integrated with version control. One limitation is that the website URL will follow the form `username.github.io`.
+We will use **GitHub Pages** to deploy the website online. This solution has several advantages, it is free and reliable. One limitation is that the website URL will follow the form `username.github.io`.
+
+Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. This post uses the first approach for its simplicity.
 
 ---
 

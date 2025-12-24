@@ -240,12 +240,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="what-is-quarto" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-quarto">What is Quarto?</h2>
 <p>I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.</p>
-<p>This post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. The entire process takes about 30 minutes. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post.</p>
+<p>This post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post.</p>
 <hr>
 </section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>There are three main steps, and the process typically takes about 30 minutes:</p>
+<p>There are three main steps, it takes about 30 minutes:</p>
 <ol type="1">
 <li>Create a local Quarto website<br>
 </li>
@@ -389,7 +389,8 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 </section>
 <section id="step-3-publish-the-website-with-github-pages" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-publish-the-website-with-github-pages">Step 3: Publish the website with GitHub Pages</h2>
-<p>We will use <strong>GitHub Pages</strong> to deploy the website online. This solution has several advantages: it is free, reliable, and well integrated with version control. One limitation is that the website URL will follow the form <code>username.github.io</code>.</p>
+<p>We will use <strong>GitHub Pages</strong> to deploy the website online. This solution has several advantages, it is free and reliable. One limitation is that the website URL will follow the form <code>username.github.io</code>.</p>
+<p>Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. This post uses the first approach for its simplicity.</p>
 <hr>
 <section id="create-a-github-repository" class="level3">
 <h3 class="anchored" data-anchor-id="create-a-github-repository">Create a GitHub repository</h3>
