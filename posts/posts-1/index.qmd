@@ -292,14 +292,12 @@ git commit -m "Update website"
 git push
 ```
 
-The updated version will be published automatically.
+After pushing changes to the `main` branch, the website is rendered and published automatically.
 
 ---
 
-Contragts, you re academic page is now set up. If you want to personalize it, here are some usefull links.
+At this point, the basic academic website is fully set up. Further customization can be done incrementally by consulting the following resources:
 
-- [Quarto gallery](https://quarto.org/docs/gallery/#websites)
+- [Quarto website gallery](https://quarto.org/docs/gallery/#websites)
+- [Modifying the Default Quarto Blog Structure](https://www.ericekholm.com/posts/demo-quarto-site/)
 
-- [Modifying the Default Quarto Blog Structure](https://www.ericekholm.com/posts/demo-quarto-site/?utm_source=chatgpt.com)
-
----
