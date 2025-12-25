@@ -13,19 +13,19 @@ format:
 
 ## What is Quarto?
 
-I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.
+I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is particularly well suited to scientific blogging: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.
 
-This post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post.
+This post outlines the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is in place, you can progressively refine its structure and appearance using the official documentation linked at the end of the post.
 
 ---
 
 ## Overview
 
-There are three main steps, it takes about 30 minutes:
+If everything runs smoothly, the process takes about 30 minutes and consists of the following steps:
 
-1. Create a local Quarto website  
+1. Create a local Quarto website locally.  
 2. Customize content and style  
-3. Publish the website online using GitHub Pages  
+3. Publish the website using GitHub Pages  
 
 ---
 
@@ -51,16 +51,17 @@ This command generates a basic Quarto website structure.
 
 If you prefer not to use the terminal, you can download the minimal template used in this post:
 
-<a href="assets/academic-site.zip" class="btn btn-primary" download> Download the website (ZIP) </a>
+<a href="/assets/academic-site.zip" class="btn btn-primary" download>
+  Download the website (ZIP)
+</a>
 
 After unzipping the archive, you can start working immediately inside the resulting directory.
-
 
 ---
 
 ### Understanding the files
 
-The website template consists of four files, each with a distinct role:
+The folder `academic-site` consists of four files, each with a distinct role:
 
 - **`_quarto.yml` — Site configuration**  
   This file defines the global structure and behavior of the website, including the site title, navigation bar, theme, table of contents, and output format. It is written in [YAML](https://en.wikipedia.org/wiki/YAML) (which stands for *Yet Another Markup Language*) and is the central configuration file that Quarto reads when rendering the site.
@@ -114,7 +115,7 @@ website:
   favicon: favicon.png
 ```
 
-The title appears in browser tabs and often in search results, while the description may be used by search engines and social previews. The favicon improves recognizability when multiple tabs are open. Use a small, simple image (for example, your initials), typically 32×32 pixels, in PNG format.
+The title appears in browser tabs and often in search results, while the description may be used by search engines. The favicon improves recognizability when multiple tabs are open. Use a small, simple image—typically a 32×32-pixel PNG of your initials.
 
 #### Navigation bar as an information hierarchy
 
@@ -157,8 +158,9 @@ Content coming soon.
 Every page should start with YAML front matter, even if minimal. In particular:
 
 In practice:
-- Set `toc: false` for short pages (Home, About)
-- Set `toc: true` for long pages (Notes, Research)
+
+ - Set `toc: false` for short pages (Home, About)
+ - Set `toc: true` for long pages (Notes, Research)
 
 #### Refresh the website
 
@@ -167,6 +169,7 @@ After editing `_quarto.yml`, changes may not be picked up reliably by the previe
 ### Custom styling (`styles.css`)
 
 The CSS file deals with the presentation
+
 - How things look
 - Fonts, spacing, colors
 - Small layout refinements
@@ -184,6 +187,7 @@ h1, h2, h3 {
 ```
 
 Afterward, refresh the Quarto preview.
+
 ---
 
 ### Customizing Quarto pages
@@ -223,13 +227,13 @@ At this stage, the website has a stable structure, clear navigation, and consist
 
 We will use **GitHub Pages** to deploy the website online. This solution has several advantages, it is free and reliable. One limitation is that the website URL will follow the form `username.github.io`.
 
-Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. This post uses the first approach for its simplicity.
+Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. Although I personally use the second option, this post presents the first approach for its simplicity.
 
 ---
 
 ### Create a GitHub repository
 
-On GitHub, create a new repository (for example, `academic-site`).Do **not** initialize it with a README
+On GitHub, create a new repository (for example, `academic-site`). Do not initialize it with a README
 
 ---
 
@@ -283,7 +287,12 @@ GitHub Pages will now serve the website directly from the `docs/` directory.
 
 ### Updating the website
 
-After modifying the content of the site, run:
+At this point, the basic academic website is fully set up. Further customization can be done incrementally by consulting the following resources:
+
+- [Quarto website gallery](https://quarto.org/docs/gallery/#websites)
+- [Modifying the Default Quarto Blog Structure](https://www.ericekholm.com/posts/demo-quarto-site/)
+
+After modifying the content of the site, run the following commands in a terminal from inside the `academic-site` folder:
 
 ```bash
 quarto render
@@ -292,12 +301,8 @@ git commit -m "Update website"
 git push
 ```
 
-After pushing changes to the `main` branch, the website is rendered and published automatically.
+After pushing changes to the `main` branch, the website is rebuilt and published automatically.
 
 ---
 
-At this point, the basic academic website is fully set up. Further customization can be done incrementally by consulting the following resources:
-
-- [Quarto website gallery](https://quarto.org/docs/gallery/#websites)
-- [Modifying the Default Quarto Blog Structure](https://www.ericekholm.com/posts/demo-quarto-site/)
 

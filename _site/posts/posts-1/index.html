@@ -182,9 +182,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#configuration-file" id="toc-configuration-file" class="nav-link" data-scroll-target="#configuration-file">Configuration file</a></li>
   <li><a href="#custom-styling-styles.css" id="toc-custom-styling-styles.css" class="nav-link" data-scroll-target="#custom-styling-styles.css">Custom styling (<code>styles.css</code>)</a></li>
-  </ul></li>
-  <li><a href="#afterward-refresh-the-quarto-preview." id="toc-afterward-refresh-the-quarto-preview." class="nav-link" data-scroll-target="#afterward-refresh-the-quarto-preview.">Afterward, refresh the Quarto preview.</a>
-  <ul class="collapse">
   <li><a href="#customizing-quarto-pages" id="toc-customizing-quarto-pages" class="nav-link" data-scroll-target="#customizing-quarto-pages">Customizing Quarto pages</a></li>
   </ul></li>
   <li><a href="#step-3-publish-the-website-with-github-pages" id="toc-step-3-publish-the-website-with-github-pages" class="nav-link" data-scroll-target="#step-3-publish-the-website-with-github-pages">Step 3: Publish the website with GitHub Pages</a>
@@ -239,19 +236,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="what-is-quarto" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-quarto">What is Quarto?</h2>
-<p>I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is especially well suited to scientific workflows: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.</p>
-<p>This post presents the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is set up, you can progressively customize its structure and appearance using the official documentation linked at the end of the post.</p>
+<p>I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is particularly well suited to scientific blogging: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.</p>
+<p>This post outlines the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is in place, you can progressively refine its structure and appearance using the official documentation linked at the end of the post.</p>
 <hr>
 </section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>There are three main steps, it takes about 30 minutes:</p>
+<p>If everything runs smoothly, the process takes about 30 minutes and consists of the following steps:</p>
 <ol type="1">
-<li>Create a local Quarto website<br>
+<li>Create a local Quarto website locally.<br>
 </li>
 <li>Customize content and style<br>
 </li>
-<li>Publish the website online using GitHub Pages</li>
+<li>Publish the website using GitHub Pages</li>
 </ol>
 <hr>
 </section>
@@ -269,13 +266,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> academic-site</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This command generates a basic Quarto website structure.</p>
 <p>If you prefer not to use the terminal, you can download the minimal template used in this post:</p>
-<p><a href="assets/academic-site.zip" class="btn btn-primary" download=""> Download the website (ZIP) </a></p>
+<p><a href="../../assets/academic-site.zip" class="btn btn-primary" download=""> Download the website (ZIP) </a></p>
 <p>After unzipping the archive, you can start working immediately inside the resulting directory.</p>
 <hr>
 </section>
 <section id="understanding-the-files" class="level3">
 <h3 class="anchored" data-anchor-id="understanding-the-files">Understanding the files</h3>
-<p>The website template consists of four files, each with a distinct role:</p>
+<p>The folder <code>academic-site</code> consists of four files, each with a distinct role:</p>
 <ul>
 <li><p><strong><code>_quarto.yml</code> — Site configuration</strong><br>
 This file defines the global structure and behavior of the website, including the site title, navigation bar, theme, table of contents, and output format. It is written in <a href="https://en.wikipedia.org/wiki/YAML">YAML</a> (which stands for <em>Yet Another Markup Language</em>) and is the central configuration file that Quarto reads when rendering the site.</p></li>
@@ -317,7 +314,7 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Nom Prénom"</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Research, teaching, and notes"</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">favicon</span><span class="kw">:</span><span class="at"> favicon.png</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>The title appears in browser tabs and often in search results, while the description may be used by search engines and social previews. The favicon improves recognizability when multiple tabs are open. Use a small, simple image (for example, your initials), typically 32×32 pixels, in PNG format.</p>
+<p>The title appears in browser tabs and often in search results, while the description may be used by search engines. The favicon improves recognizability when multiple tabs are open. Use a small, simple image—typically a 32×32-pixel PNG of your initials.</p>
 </section>
 <section id="navigation-bar-as-an-information-hierarchy" class="level4">
 <h4 class="anchored" data-anchor-id="navigation-bar-as-an-information-hierarchy">Navigation bar as an information hierarchy</h4>
@@ -345,7 +342,11 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>Content coming soon.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Every page should start with YAML front matter, even if minimal. In particular:</p>
-<p>In practice: - Set <code>toc: false</code> for short pages (Home, About) - Set <code>toc: true</code> for long pages (Notes, Research)</p>
+<p>In practice:</p>
+<ul>
+<li>Set <code>toc: false</code> for short pages (Home, About)</li>
+<li>Set <code>toc: true</code> for long pages (Notes, Research)</li>
+</ul>
 </section>
 <section id="refresh-the-website" class="level4">
 <h4 class="anchored" data-anchor-id="refresh-the-website">Refresh the website</h4>
@@ -354,7 +355,12 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 </section>
 <section id="custom-styling-styles.css" class="level3">
 <h3 class="anchored" data-anchor-id="custom-styling-styles.css">Custom styling (<code>styles.css</code>)</h3>
-<p>The CSS file deals with the presentation - How things look - Fonts, spacing, colors - Small layout refinements</p>
+<p>The CSS file deals with the presentation</p>
+<ul>
+<li>How things look</li>
+<li>Fonts, spacing, colors</li>
+<li>Small layout refinements</li>
+</ul>
 <p>Theme defaults can be overridden using CSS:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>h1<span class="op">,</span> h2<span class="op">,</span> h3 {</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span><span class="ch">:</span> <span class="st">"Georgia"</span><span class="op">,</span> <span class="dv">serif</span><span class="op">;</span></span>
@@ -363,10 +369,9 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">.navbar-title</span> {</span>
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-weight</span><span class="ch">:</span> <span class="dv">bold</span><span class="op">;</span></span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Afterward, refresh the Quarto preview.</p>
+<hr>
 </section>
-</section>
-<section id="afterward-refresh-the-quarto-preview." class="level2">
-<h2 class="anchored" data-anchor-id="afterward-refresh-the-quarto-preview.">Afterward, refresh the Quarto preview.</h2>
 <section id="customizing-quarto-pages" class="level3">
 <h3 class="anchored" data-anchor-id="customizing-quarto-pages">Customizing Quarto pages</h3>
 <section id="example-the-research-page" class="level4">
@@ -390,11 +395,11 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 <section id="step-3-publish-the-website-with-github-pages" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-publish-the-website-with-github-pages">Step 3: Publish the website with GitHub Pages</h2>
 <p>We will use <strong>GitHub Pages</strong> to deploy the website online. This solution has several advantages, it is free and reliable. One limitation is that the website URL will follow the form <code>username.github.io</code>.</p>
-<p>Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. This post uses the first approach for its simplicity.</p>
+<p>Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. Although I personally use the second option, this post presents the first approach for its simplicity.</p>
 <hr>
 <section id="create-a-github-repository" class="level3">
 <h3 class="anchored" data-anchor-id="create-a-github-repository">Create a GitHub repository</h3>
-<p>On GitHub, create a new repository (for example, <code>academic-site</code>).Do <strong>not</strong> initialize it with a README</p>
+<p>On GitHub, create a new repository (for example, <code>academic-site</code>). Do not initialize it with a README</p>
 <hr>
 </section>
 <section id="configure-quarto-to-publish-from-main" class="level3">
@@ -437,18 +442,17 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 </section>
 <section id="updating-the-website" class="level3">
 <h3 class="anchored" data-anchor-id="updating-the-website">Updating the website</h3>
-<p>After modifying the content of the site, run:</p>
+<p>At this point, the basic academic website is fully set up. Further customization can be done incrementally by consulting the following resources:</p>
+<ul>
+<li><a href="https://quarto.org/docs/gallery/#websites">Quarto website gallery</a></li>
+<li><a href="https://www.ericekholm.com/posts/demo-quarto-site/">Modifying the Default Quarto Blog Structure</a></li>
+</ul>
+<p>After modifying the content of the site, run the following commands in a terminal from inside the <code>academic-site</code> folder:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add docs</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update website"</span></span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>The updated version will be published automatically.</p>
-<hr>
-<p>Contragts, you re academic page is now set up. If you want to personalize it, here are some usefull links.</p>
-<ul>
-<li><p><a href="https://quarto.org/docs/gallery/#websites">Quarto gallery</a></p></li>
-<li><p><a href="https://www.ericekholm.com/posts/demo-quarto-site/?utm_source=chatgpt.com">Modifying the Default Quarto Blog Structure</a></p></li>
-</ul>
+<p>After pushing changes to the <code>main</code> branch, the website is rebuilt and published automatically.</p>
 <hr>
 
 
@@ -529,7 +533,7 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/AdamArras\.github\.io\/adamarras\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
