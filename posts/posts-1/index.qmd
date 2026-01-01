@@ -13,7 +13,7 @@ format:
 
 ## What is Quarto?
 
-I recently migrated my academic website from Jekyll to Quarto. Both are Markdown-based tools for building static websites, but Quarto is particularly well suited to scientific blogging: it natively supports executable documents, citations, cross-references, and tight integration with R, Python, and Julia.
+I recently moved my academic website from Jekyll to Quarto. Both are Markdown-based static site generators, but Quarto is better suited to academic use, with built-in support for citations and integration with R, Python, and Julia.
 
 This post outlines the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is in place, you can progressively refine its structure and appearance using the official documentation linked at the end of the post.
 
@@ -23,9 +23,11 @@ This post outlines the minimal steps required to create and publish a personal a
 
 If everything runs smoothly, the process takes about 30 minutes and consists of the following steps:
 
-1. Create a local Quarto website locally.  
-2. Customize content and style  
-3. Publish the website using GitHub Pages  
+1. Create a local Quarto website.
+2. Customize the content and style.
+3. Publish the website using GitHub Pages.
+
+You will need a terminal, Quarto, and a GitHub account.
 
 ---
 
@@ -78,7 +80,7 @@ The folder `academic-site` consists of four files, each with a distinct role:
 
 ---
 
-## Preview the site locally
+### Preview the site locally
 
 To preview the website during development, run:
 

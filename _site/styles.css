@@ -1,5 +1,58 @@
 /* css styles */
 
+/* ---- Color system (edit these) ---- */
+:root{
+  --bg: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+  --link: #1d4ed8;
+  --link-hover: #1e40af;
+
+  --nav-bg: #0f172a;
+  --nav-text: #e5e7eb;
+  --nav-link-hover: #93c5fd;
+
+  --border: #e5e7eb;
+  --code-bg: #f3f4f6;
+}
+
+/* ---- Base ---- */
+body{
+  background: var(--bg);
+  color: var(--text);
+}
+
+a{ color: var(--link); }
+a:hover{ color: var(--link-hover); }
+
+hr{ border-color: var(--border); }
+
+/* ---- Navbar (Quarto / Bootstrap) ---- */
+.navbar, .navbar-dark, .navbar-light{
+  background-color: var(--nav-bg) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link{
+  color: var(--nav-text) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus{
+  color: var(--nav-link-hover) !important;
+}
+
+/* Optional: active link */
+.navbar .nav-link.active{
+  color: var(--nav-link-hover) !important;
+}
+
+/* Code blocks */
+pre, code{
+  background: var(--code-bg);
+}
+
+
 body {
   line-height: 1.6;
 }
