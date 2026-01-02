@@ -17,7 +17,7 @@ Among them, I particularly recommend:
 - Xavier Viennot’s course on
   [bijective combinatorics](https://www.viennot.org/abjc.html)
 - Frederic P. Schuller’s course on the
-  [mathematical foundations of theoretical physics](https://www.youtube.com/playlist?list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic)
+  [mathematical foundations of theoretical physics](https://mathvideos.org/2015/frederic-schuller-lectures-on-geometrical-anatomy-of-theoretical-physics/)
 
 **AI**
 
