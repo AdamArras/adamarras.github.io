@@ -1,7 +1,21 @@
 ---
-title: "Second Post"
-date: 2025-01-01
-draft: true
+title: "DL mini-course"
+description: ""
+author: "Adam"
+categories: [DL, python, course]
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
 ---
 
-This posts is in construction
+I recently started revisiting deep learning and decided to build a small **mini-course** alongside it, mainly as a way to organize my notes, but feel free to take a look.
+
+The course is hosted on my GitHub repository: [mini-course-DL](https://github.com/AdamArras/mini-course-DL)
+
+You can also run the notebooks directly in your browser using **Google Colab**, without installing anything. The first lesson is available here:  [lesson 1](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lecture1_fr.ipynb) (in french)
+
+More content will be added as the course grows.
+

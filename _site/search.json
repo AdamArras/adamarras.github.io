@@ -126,6 +126,13 @@
     "text": "Refereeing\n\nElectronic Communications in Probability\n\nEuropean Journal of Combinatorics\n\nRefereeing invitations in probability, random graphs, and spectral theory are welcome."
   },
   {
+    "objectID": "posts/posts-2/index.html",
+    "href": "posts/posts-2/index.html",
+    "title": "DL mini-course",
+    "section": "",
+    "text": "I recently started revisiting deep learning and decided to build a small mini-course alongside it, mainly as a way to organize my notes, but feel free to take a look.\nThe course is hosted on my GitHub repository: mini-course-DL\nYou can also run the notebooks directly in your browser using Google Colab, without installing anything. The first lesson is available here: lesson 1 (in french)\nMore content will be added as the course grows."
+  },
+  {
     "objectID": "CV.html",
     "href": "CV.html",
     "title": "CV",
@@ -145,20 +152,6 @@
     "title": "CV",
     "section": "Education",
     "text": "Education\n\n2015–2019 — École Normale Supérieure Paris-Saclay\n(formerly ENS Cachan)\n\n2018–2019 — Pre-doctoral research year abroad,\nSchool of Mathematics,\nGeorgia Institute of Technology, Atlanta\n2017–2018 — Master\nMVA — Mathématiques, Vision, Apprentissage\n\n\n\nHere is a brief CV."
-  },
-  {
-    "objectID": "assets/academic-site/about.html",
-    "href": "assets/academic-site/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "assets/academic-site/index.html",
-    "href": "assets/academic-site/index.html",
-    "title": "academic-site",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "index.html",
@@ -256,7 +249,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Creating a Personal Website with Quarto\n\n\n\nquarto\n\nwebsite\n\ngithub\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "DL mini-course\n\n\n\nDL\n\npython\n\ncourse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a Personal Website with Quarto\n\n\n\nquarto\n\nwebsite\n\ngithub\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "notes.html",

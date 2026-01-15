@@ -16,12 +16,12 @@ website:
       - text: CV
         href: CV.qmd
       - text: Blog
-        href: blog.qmd        
+        href: blog.qmd
       - text: About
         href: about.qmd
   page-footer:
-    left: "© <span id='copyright-year'></span> Adam Arras"
-    right: "Last updated: <span id='last-updated'>{{< meta date >}}</span>"
+    left: "© 2026 Adam Arras"
+    right: "Last updated: {{< meta date >}}"
 
 date: last-modified
 date-format: "MMMM YYYY"
@@ -34,15 +34,4 @@ format:
       - text: |
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    include-after-body:
-      - text: |
-          <script>
-          document.addEventListener("DOMContentLoaded", function () {
-            const last = document.getElementById("last-updated");
-            const yearEl = document.getElementById("copyright-year");
-            if (!last || !yearEl) return;
-            const m = (last.textContent || "").match(/\b(19|20)\d{2}\b/);
-            yearEl.textContent = m ? m[0] : "";
-          });
-          </script>
 
