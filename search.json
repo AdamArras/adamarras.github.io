@@ -126,6 +126,13 @@
     "text": "Refereeing\n\nElectronic Communications in Probability\n\nEuropean Journal of Combinatorics\n\nRefereeing invitations in probability, random graphs, and spectral theory are welcome."
   },
   {
+    "objectID": "posts/posts-2/index.html",
+    "href": "posts/posts-2/index.html",
+    "title": "DL mini-course",
+    "section": "",
+    "text": "I recently started revisiting deep learning and decided to build a small mini-course alongside it, mainly as a way to organize my notes, but feel free to take a look.\nThe course is hosted on my GitHub repository: mini-course-DL\nYou can also run the notebooks directly in your browser using Google Colab, without installing anything. The first lesson is available here: lesson 1 (in french)\nMore content will be added as the course grows."
+  },
+  {
     "objectID": "CV.html",
     "href": "CV.html",
     "title": "CV",
@@ -242,7 +249,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Creating a Personal Website with Quarto\n\n\n\nquarto\n\nwebsite\n\ngithub\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "DL mini-course\n\n\n\nDL\n\npython\n\ncourse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a Personal Website with Quarto\n\n\n\nquarto\n\nwebsite\n\ngithub\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "notes.html",
