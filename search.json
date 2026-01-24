@@ -130,7 +130,7 @@
     "href": "posts/posts-2/index.html",
     "title": "DL mini-course",
     "section": "",
-    "text": "I recently started revisiting deep learning and decided to build a small mini-course alongside it, mainly as a way to organize my notes, but feel free to take a look.\nThe course is hosted on my GitHub repository: mini-course-DL\nYou can also run the notebooks directly in your browser using Google Colab, without installing anything. The first lesson is available here: lesson 1 (in french)\nMore content will be added as the course grows."
+    "text": "I recently started revisiting deep learning and decided to build a small mini-course alongside it, mainly as a way to organize my notes, but feel free to take a look.\nThe course is hosted on my GitHub repository: mini-course-DL\nYou can also run the notebooks directly in your browser using Google Colab, without installing anything. The first lesson is available here:\n\nlesson 1 (in french)\nlesson 2\n\nMore content will be added as the course grows."
   },
   {
     "objectID": "research.html",
