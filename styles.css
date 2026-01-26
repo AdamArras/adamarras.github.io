@@ -1,6 +1,8 @@
 /* css styles */
 
-/* ---- Color system (edit these) ---- */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ---- Color system ---- */
 :root{
   --bg: #ffffff;
   --text: #111827;
@@ -20,10 +22,9 @@
 body{
   background: var(--bg);
   color: var(--text);
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
 }
-
-a{ color: var(--link); }
-a:hover{ color: var(--link-hover); }
 
 hr{ border-color: var(--border); }
 
@@ -42,59 +43,123 @@ hr{ border-color: var(--border); }
   color: var(--nav-link-hover) !important;
 }
 
-/* Optional: active link */
 .navbar .nav-link.active{
   color: var(--nav-link-hover) !important;
 }
 
-/* Code blocks */
-pre, code{
-  background: var(--code-bg);
+/* Ensure navbar/sidebar/toc use UI font */
+.navbar,
+.sidebar,
+.toc{
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-
-body {
-  line-height: 1.6;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-ul, ol {
-  margin-bottom: 1rem;
-}
-
-main {
-  max-width: 900px;
+/* ---- Article layout (Quarto content wrapper) ---- */
+.quarto-container .content{
+  max-width: 72ch;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
+
+  /* Article typography */
+  font-family: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.75;
 }
 
-h1 {
+/* Optional: slightly larger type on large screens */
+@media (min-width: 1200px){
+  .quarto-container .content{ font-size: 19px; }
+}
+
+/* Keep non-post pages a bit wider (optional) */
+body:not(.quarto-post) .quarto-container .content{
+  max-width: 900px;
+}
+
+/* ---- Links (editorial) ---- */
+.quarto-container .content a{
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.quarto-container .content a:hover{
+  color: var(--link);
+  border-bottom-color: var(--link);
+}
+
+/* ---- Typography rhythm ---- */
+.quarto-container .content p{
+  margin: 0 0 1.1rem 0;
+}
+
+.quarto-container .content ul,
+.quarto-container .content ol{
+  margin: 0 0 1.1rem 0;
+  padding-left: 1.25rem;
+}
+
+.quarto-container .content li{
+  margin: 0.35rem 0;
+}
+
+.quarto-container .content h1,
+.quarto-container .content h2,
+.quarto-container .content h3,
+.quarto-container .content h4{
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 600;
-  margin-top: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 2.2rem 0 0.8rem 0;
 }
 
-h2 {
-  font-weight: 500;
-  margin-top: 1.5rem;
+.quarto-container .content h1{ font-size: 2.1rem; }
+.quarto-container .content h2{ font-size: 1.6rem; }
+.quarto-container .content h3{ font-size: 1.25rem; }
+
+.quarto-container .content h2 + p,
+.quarto-container .content h3 + p{
+  margin-top: 0.3rem;
 }
 
-h3 {
-  font-weight: 500;
-  margin-top: 1rem;
+/* ---- Code ---- */
+.quarto-container .content :not(pre) > code{
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  padding: 0.12em 0.35em;
+  border-radius: 6px;
+  font-size: 0.95em;
 }
 
+.quarto-container .content pre{
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+}
 
+.quarto-container .content pre code{
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* ---- Social icons tweak ---- */
 .social-links .ai::before,
-.social-links .fa-github::before {
+.social-links .fa-github::before{
   font-size: 1.2rem;
   color: #444;
 }
 
 /* Hide the title metadata block (e.g. "Modified December 16, 2025") */
-.quarto-title-meta {
+.quarto-title-meta{
   display: none !important;
 }
 

@@ -57,3 +57,22 @@ This website is built using [Quarto](https://quarto.org), an open-source, Markdo
 
 See my [blog post](/posts/posts-1/) on setting up an academic website with Quarto and GitHub Pages.
 
+## 
+
+<div id="random-shadok" style="text-align:center; margin: 2rem 0;"></div>
+
+<script>
+(function () {
+  const n = 11;
+  const k = Math.floor(Math.random() * n) + 1;
+  const filename = `d_${String(k).padStart(2, "0")}.jpg`;
+
+  const img = document.createElement("img");
+  img.src = `assets/shadoks/${filename}`;
+  img.alt = "Shadok";
+  img.style.maxWidth = "100%";
+  img.style.height = "auto";
+
+  document.getElementById("random-shadok").appendChild(img);
+})();
+</script>

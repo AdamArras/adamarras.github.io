@@ -1,5 +1,8 @@
 project:
   type: website
+  resources:
+    - assets/shadoks/
+
 
 website:
   title: "Adam Arras"
@@ -28,6 +31,7 @@ date-format: "MMMM YYYY"
 
 format:
   html:
+    theme: slate	
     mathjax: true
     css: styles.css
     include-in-header:

@@ -2,7 +2,8 @@
 title: "Creating a Personal Website with Quarto"
 description: ""
 author: "Adam"
-categories: [quarto, website, github]
+categories: [quarto, github page, academic website]
+image: post1-thumbnail.png
 format:
   html:
     toc: true

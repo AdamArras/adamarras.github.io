@@ -2,7 +2,7 @@
 title: "Blog"
 listing:
   contents: posts
-  fields: [title, description, categories]
+  fields: [title, description, categories, image]
   sort: "date desc"
 ---
 
