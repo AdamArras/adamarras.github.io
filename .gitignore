@@ -1,3 +1,7 @@
 /.quarto/
 **/*.quarto_ipynb
 _site/
+# Quarto generated
+_site/
+.quarto/
+.quarto-cache/
