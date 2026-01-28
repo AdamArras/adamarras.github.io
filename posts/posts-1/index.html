@@ -236,13 +236,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="what-is-quarto" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-quarto">What is Quarto?</h2>
+<p>Here is how to create and publish an academic website online in 30 minutes.</p>
 <p>I recently moved my academic website from Jekyll to Quarto. Both are Markdown-based static site generators, but Quarto is better suited to academic use, with built-in support for citations and integration with R, Python, and Julia.</p>
 <p>This post outlines the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is in place, you can progressively refine its structure and appearance using the official documentation linked at the end of the post.</p>
 <hr>
 </section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>If everything runs smoothly, the process takes about 30 minutes and consists of the following steps:</p>
+<p>There will be three main steps:</p>
 <ol type="1">
 <li>Create a local Quarto website.</li>
 <li>Customize the content and style.</li>
@@ -354,13 +355,7 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 </section>
 <section id="custom-styling-styles.css" class="level3">
 <h3 class="anchored" data-anchor-id="custom-styling-styles.css">Custom styling (<code>styles.css</code>)</h3>
-<p>The CSS file deals with the presentation</p>
-<ul>
-<li>How things look</li>
-<li>Fonts, spacing, colors</li>
-<li>Small layout refinements</li>
-</ul>
-<p>Theme defaults can be overridden using CSS:</p>
+<p>The CSS file deals with the presentation: how things look, fonts, spacing, colors and small layout refinements. Theme defaults can be overridden using CSS:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>h1<span class="op">,</span> h2<span class="op">,</span> h3 {</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">font-family</span><span class="ch">:</span> <span class="st">"Georgia"</span><span class="op">,</span> <span class="dv">serif</span><span class="op">;</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>}</span>
@@ -385,7 +380,7 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Preprints</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">## Journal articles</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Talks</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Cross-references and internal links. Pages can link to each other using relative links:</p>
+<p>Cross-references and internal links; pages can link to each other using relative links:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>See the <span class="co">[</span><span class="ot">Research</span><span class="co">](research.qmd)</span> page for publications.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>At this stage, the website has a stable structure, clear navigation, and consistent metadata. You can refine the visual appearance, fill in the content of the website, or directly go to the last step.</p>
 </section>
@@ -393,12 +388,12 @@ The remaining two files are <code>.qmd</code> files. The extension <code>.qmd</c
 </section>
 <section id="step-3-publish-the-website-with-github-pages" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-publish-the-website-with-github-pages">Step 3: Publish the website with GitHub Pages</h2>
-<p>We will use <strong>GitHub Pages</strong> to deploy the website online. This solution has several advantages, it is free and reliable. One limitation is that the website URL will follow the form <code>username.github.io</code>.</p>
+<p>We will use <strong>GitHub Pages</strong> to deploy the website online. This solution has several advantages. It is free and reliable. One limitation is that the website URL will be of the form <code>username.github.io</code>.</p>
 <p>Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. Although I personally use the second option, this post presents the first approach for its simplicity.</p>
 <hr>
 <section id="create-a-github-repository" class="level3">
 <h3 class="anchored" data-anchor-id="create-a-github-repository">Create a GitHub repository</h3>
-<p>On GitHub, create a new repository (for example, <code>academic-site</code>). Do not initialize it with a README</p>
+<p>On GitHub, create a new repository (for example, <code>academic-site</code>). Do not initialize it with a README.</p>
 <hr>
 </section>
 <section id="configure-quarto-to-publish-from-main" class="level3">
