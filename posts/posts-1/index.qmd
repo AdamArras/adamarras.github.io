@@ -14,6 +14,8 @@ format:
 
 ## What is Quarto?
 
+Here is how to create and publish an academic website online in 30 minutes. 
+
 I recently moved my academic website from Jekyll to Quarto. Both are Markdown-based static site generators, but Quarto is better suited to academic use, with built-in support for citations and integration with R, Python, and Julia.
 
 This post outlines the minimal steps required to create and publish a personal academic website using Quarto and GitHub Pages. Once the basic site is in place, you can progressively refine its structure and appearance using the official documentation linked at the end of the post.
@@ -22,7 +24,7 @@ This post outlines the minimal steps required to create and publish a personal a
 
 ## Overview
 
-If everything runs smoothly, the process takes about 30 minutes and consists of the following steps:
+There will be three main steps:
 
 1. Create a local Quarto website.
 2. Customize the content and style.
@@ -171,13 +173,7 @@ After editing `_quarto.yml`, changes may not be picked up reliably by the previe
 
 ### Custom styling (`styles.css`)
 
-The CSS file deals with the presentation
-
-- How things look
-- Fonts, spacing, colors
-- Small layout refinements
-
-Theme defaults can be overridden using CSS:
+The CSS file deals with the presentation: how things look, fonts, spacing, colors and small layout refinements. Theme defaults can be overridden using CSS:
 
 ```css
 h1, h2, h3 {
@@ -215,7 +211,7 @@ Then you can progressively add section headers.
 ## Talks
 ```
 
-Cross-references and internal links. Pages can link to each other using relative links: 
+Cross-references and internal links; pages can link to each other using relative links: 
 
 
 ```markdown
@@ -228,7 +224,7 @@ At this stage, the website has a stable structure, clear navigation, and consist
 
 ## Step 3: Publish the website with GitHub Pages
 
-We will use **GitHub Pages** to deploy the website online. This solution has several advantages, it is free and reliable. One limitation is that the website URL will follow the form `username.github.io`.
+We will use **GitHub Pages** to deploy the website online. This solution has several advantages. It is free and reliable. One limitation is that the website URL will be of the form `username.github.io`.
 
 Quarto websites can be published on GitHub in two main ways: either by rendering the site locally and serving the generated files via GitHub Pages, or by letting GitHub Actions render and deploy the site automatically. Although I personally use the second option, this post presents the first approach for its simplicity.
 
@@ -236,7 +232,7 @@ Quarto websites can be published on GitHub in two main ways: either by rendering
 
 ### Create a GitHub repository
 
-On GitHub, create a new repository (for example, `academic-site`). Do not initialize it with a README
+On GitHub, create a new repository (for example, `academic-site`). Do not initialize it with a README.
 
 ---
 

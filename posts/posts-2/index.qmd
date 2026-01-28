@@ -12,7 +12,7 @@ format:
     code-overflow: wrap
 ---
 
-I recently started revisiting deep learning and decided to build a small **mini-course** alongside it, mainly as a way to organize my notes, but feel free to take a look.
+I’m currently revisiting deep learning, and I’ve decided to build a small course alongside it.
 
 The course is hosted on my GitHub repository: [mini-course-DL](https://github.com/AdamArras/mini-course-DL)
 
