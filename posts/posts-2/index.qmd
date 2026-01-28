@@ -2,7 +2,7 @@
 title: "DL mini-course"
 description: ""
 author: "Adam"
-categories: [DL, python, course]
+categories: [DL, Python, Course]
 image: post2-thumbnail.png
 format:
   html:
@@ -12,15 +12,15 @@ format:
     code-overflow: wrap
 ---
 
-I’m currently revisiting deep learning, and I’ve decided to build a small course alongside it.
+I’m currently revisiting deep learning, and I’ve decided to build a small course alongside it. 
 
-The course is hosted on my GitHub repository: [mini-course-DL](https://github.com/AdamArras/mini-course-DL)
+The course is hosted on my GitHub repository: [mini-course-DL](https://github.com/AdamArras/mini-course-DL). You can run the notebooks directly using **Google Colab**, without installing anything. The lessons currently available are:
 
-You can also run the notebooks directly in your browser using **Google Colab**, without installing anything. The first lesson is available here:  
+- [Lesson 1](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson1_fr.ipynb)  
+  - A Python refresher (in French).
 
-- [lesson 1](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson1_fr.ipynb) (in french)
+- [Lesson 2](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2_solution.ipynb)  
+  - We build a one-layer perceptron (linear classifier + softmax) and train it using gradient descent.
 
-- [lesson 2](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2_solution.ipynb)
-
-More content will be added as the course grows.
-
+- [Lesson 3](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson3.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson3_solution.ipynb)  
+  - Following the foundational paper **Bengio et al. (2003)**, [*A Neural Probabilistic Language Model*](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf), we build a multi-layer perceptron with low-dimensional latent representations and train it using random mini-batches.
