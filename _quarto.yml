@@ -31,11 +31,12 @@ date-format: "MMMM YYYY"
 
 format:
   html:
-    theme: slate	
+    theme: slate
     mathjax: true
     css: styles.css
     include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
