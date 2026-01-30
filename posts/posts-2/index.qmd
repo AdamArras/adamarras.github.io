@@ -26,5 +26,8 @@ The course is hosted on my GitHub repository: [mini-course-DL](https://github.co
   - Following the foundational paper **Bengio et al. (2003)**, [*A Neural Probabilistic Language Model*](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf), we build a multi-layer perceptron with low-dimensional latent representations and train it using random mini-batches.
   
 More content soon :)
-  
 
+
+---
+
+Bonus : une introduction rapide [Pandas en 2 minutes](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/pandasen2minutes.ipynb), inspirée de *10 Minutes to Pandas*.
