@@ -130,7 +130,7 @@
     "href": "posts/posts-2/index.html",
     "title": "DL mini-course",
     "section": "",
-    "text": "I’m currently revisiting deep learning, and I’ve decided to build a small course alongside it.\nThe course is hosted on my GitHub repository: mini-course-DL. You can run the notebooks directly using Google Colab, without installing anything. The lessons currently available are:\n\nLesson 1\n\nA Python refresher (in French).\n\nLesson 2 and solution\n\nWe build a one-layer perceptron (linear classifier + softmax) and train it using gradient descent.\n\nLesson 3 and solution\n\nFollowing the foundational paper Bengio et al. (2003), A Neural Probabilistic Language Model, we build a multi-layer perceptron with low-dimensional latent representations and train it using random mini-batches.\n\n\nMore content soon :)"
+    "text": "I’m currently revisiting deep learning, and I’ve decided to build a small course alongside it.\nThe course is hosted on my GitHub repository: mini-course-DL. You can run the notebooks directly using Google Colab, without installing anything. The lessons currently available are:\n\nLesson 1\n\nA Python refresher (in French).\n\nLesson 2 and solution\n\nWe build a one-layer perceptron (linear classifier + softmax) and train it using gradient descent.\n\nLesson 3 and solution\n\nFollowing the foundational paper Bengio et al. (2003), A Neural Probabilistic Language Model, we build a multi-layer perceptron with low-dimensional latent representations and train it using random mini-batches.\n\n\nMore content soon :)\n\nBonus : une introduction rapide Pandas en 2 minutes, inspirée de 10 Minutes to Pandas."
   },
   {
     "objectID": "research.html",
