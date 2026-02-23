@@ -8,27 +8,30 @@ intersection of probability, geometry, and spectral analysis.
 
 ## Publications and Preprints
 
-1. **Quenched Path Limits and Periodization Stability for Tilted Brownian Motion
-   in Poissonian Potentials on $\mathbb{H}^d$**,  
+1. **Localization of Maximal Entropy Random Walk on $\mathbb{Z}^d$**,  
    Miklós Abért, Adam Arras, Jaelin Kim. *In preparation*.
 
 2. **Large Deviations for Triangle Counts in Sparse Directed Random Graphs**,  
    Adam Arras, Pierfrancesco Dionigi. *In preparation*.
+   
+3. **Quenched Path Limits and Periodization Stability for Tilted Brownian Motion in Poissonian Potentials on $\mathbb{H}^d$**,  
+   Miklós Abért, Adam Arras, Jaelin Kim. *arXiv preprint* (2026).  
+   <https://arxiv.org/abs/2602.18433>
 
-3. **The Uniform Random Walk on Graphs, Loop Processes and Graphings**,  
+4. **The Uniform Random Walk on Graphs, Loop Processes and Graphings**,  
    Miklós Abért, Adam Arras, Jaelin Kim. *arXiv preprint* (2025).  
    <https://arxiv.org/abs/2512.09166>
 
-4. **Random Schrödinger Operators and Convolution on Wreath Products**,  
+5. **Random Schrödinger Operators and Convolution on Wreath Products**,  
    Adam Arras. *arXiv preprint* (2025).  
    <https://arxiv.org/abs/2505.22485>
 
-5. **Existence of Absolutely Continuous Spectrum for Galton–Watson Random Trees**,  
+6. **Existence of Absolutely Continuous Spectrum for Galton–Watson Random Trees**,  
    Adam Arras, Charles Bordenave. *Communications in Mathematical Physics*
    **403** (2023), no. 1, 495–527.  
    <https://link.springer.com/article/10.1007/s00220-023-04798-3>
 
-6. **Spectral Measures of Random Operators**,  
+7. **Spectral Measures of Random Operators**,  
    Adam Arras. PhD thesis, Aix-Marseille University (2023).  
    [PDF](assets/pdf/these.pdf)
 

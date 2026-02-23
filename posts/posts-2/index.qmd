@@ -30,4 +30,4 @@ More content soon :)
 
 ---
 
-Bonus : une introduction rapide [Pandas en 2 minutes](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/pandasen2minutes.ipynb), inspirée de *10 Minutes to Pandas*.
+Bonus : [une introduction](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/pandasen2minutes.ipynb) à Pandas en français inspirée de *10 Minutes to Pandas*.
