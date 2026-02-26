@@ -37,8 +37,13 @@ intersection of probability, geometry, and spectral analysis.
 
 ## Talks
 
+### 2026
+- Probability Seminar, MODAL’X, Université Paris Nanterre (upcoming)
+- GDR Matrices et graphes aléatoires meeting (upcoming)
+
 ### 2024
 - Research Seminar, Alfréd Rényi Institute of Mathematics, Budapest
+- CMI-HIMR Summer School on Symmetry and Randomness, University of Bristol, Bristol
 
 ### 2023
 - Probability Seminar, IRMA, Strasbourg  
