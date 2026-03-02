@@ -73,6 +73,12 @@ See my [blog post](/posts/posts-1/) on setting up an academic website with Quart
   img.style.maxWidth = "100%";
   img.style.height = "auto";
 
-  document.getElementById("random-shadok").appendChild(img);
+  const link = document.createElement("a");
+  link.href = "https://en.wikipedia.org/wiki/Les_Shadoks"; // or FR page
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+
+  link.appendChild(img);
+  document.getElementById("random-shadok").appendChild(link);
 })();
 </script>

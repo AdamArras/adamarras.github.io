@@ -1,7 +1,6 @@
 ---
 title: "CV"
-toc: true
-toc-location: right
+toc: false
 page-layout: full
 ---
 
