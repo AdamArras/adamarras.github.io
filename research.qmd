@@ -39,7 +39,7 @@ intersection of probability, geometry, and spectral analysis.
 
 ### 2026
 - Probability Seminar, MODAL’X, Université Paris Nanterre (upcoming)
-- GDR Matrices et graphes aléatoires meeting (upcoming)
+- GDR [MEGA](https://www.ceremade.dauphine.fr/dokuwiki/mega:start) (upcoming)
 
 ### 2024
 - Research Seminar, Alfréd Rényi Institute of Mathematics, Budapest
