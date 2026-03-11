@@ -17,14 +17,20 @@ I’m currently revisiting deep learning, and I’ve decided to build a small co
 The course is hosted on my GitHub repository: [mini-course-DL](https://github.com/AdamArras/mini-course-DL). You can run the notebooks directly using **Google Colab**, without installing anything. The lessons currently available are:
 
 - [Lesson 1](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson1_fr.ipynb)  
-  - A Python refresher (in French).
+  - A Python refresher (in French). (Jan 2026)
 
-- [Lesson 2](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2_solution.ipynb)  
+- [Lesson 2](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson2_solution.ipynb)  (Sep 2026)
   - We build a one-layer perceptron (linear classifier + softmax) and train it using gradient descent.
 
-- [Lesson 3](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson3.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson3_solution.ipynb)  
+- [Lesson 3](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson3.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson3_solution.ipynb)  (Feb 2026)
   - Following the foundational paper **Bengio et al. (2003)**, [*A Neural Probabilistic Language Model*](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf), we build a multi-layer perceptron with low-dimensional latent representations and train it using random mini-batches.
   
+- [Lesson 4](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson4.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson4_solution.ipynb) (March 2026)
+  - We study training stability in deep networks. In particular, we implement **Batch Normalization** following **Ioffe & Szegedy (2015)** and introduce diagnostics involving activation saturation and update-to-parameter ratios.
+  
+
+
+
 More content soon :)
 
 
