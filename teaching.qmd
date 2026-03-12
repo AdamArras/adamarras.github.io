@@ -6,6 +6,14 @@ toc-location: right
 anchor-links: false
 ---
 
+### Educational material 
+
+- *[DL-mini-course](https://adamarras.github.io/posts/posts-2/)*  
+  Self-developed tutorials and notes on deep learning while revisiting the subject.  
+ 
+
+# Teaching experience
+
 ## 2022–2023
 
 ### Polytech Marseille, Prépa intégrée (PEIP)
