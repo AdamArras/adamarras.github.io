@@ -38,8 +38,9 @@ intersection of probability, geometry, and spectral analysis.
 ## Talks
 
 ### 2026
-- Probability Seminar, MODAL’X, Université Paris Nanterre (upcoming)
 - GDR [MEGA](https://www.ceremade.dauphine.fr/dokuwiki/mega:start) (upcoming)
+- Probability Seminar, MODAL’X, 22 May, Université Paris Nanterre
+- Research School [LOUCCOUM](https://conferences.cirm-math.fr/3548.html), 8–12 June, CIRM, Marseille
 
 ### 2024
 - Research Seminar, Alfréd Rényi Institute of Mathematics, Budapest
