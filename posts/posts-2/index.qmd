@@ -2,7 +2,7 @@
 title: "DL mini-course"
 description: ""
 author: "Adam"
-categories: [DL, Python, Course]
+categories: [DL, Python]
 image: post2-thumbnail.png
 format:
   html:
@@ -12,9 +12,7 @@ format:
     code-overflow: wrap
 ---
 
-I’m currently revisiting deep learning, and I’ve decided to build a small course alongside it. 
-
-The course is hosted on my GitHub repository: [mini-course-DL](https://github.com/AdamArras/mini-course-DL). You can run the notebooks directly using **Google Colab**, without installing anything. The lessons currently available are:
+I’m currently revisiting deep learning, and I’ve decided to build a course alongside it. The material is hosted on my GitHub repository [mini-course-DL](https://github.com/AdamArras/mini-course-DL). You can run the notebooks without installing anything by using Google Colab.
 
 - [Lesson 1](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson1_fr.ipynb)  
   - A Python refresher (in French). (Dec 2025)

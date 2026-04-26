@@ -6,17 +6,15 @@ toc-location: right
 anchor-links: false
 ---
 
-### Educational material 
+## Educational material
 
-- *[DL-mini-course](https://adamarras.github.io/posts/posts-2/)*  
-  Self-developed mini course on deep learning. We start from a simple one layer perceptron to a complete GPT architecture.  
- 
+- *[Deep Learning mini-course](https://adamarras.github.io/posts/posts-2/)*.  We build deep learning architectures from scratch, from a single-layer perceptron up to a full GPT model. 
 
-# Teaching experience
+## Teaching experience
 
-## 2022–2023
+### 2022–2023
 
-### Polytech Marseille, Prépa intégrée (PEIP)
+#### Polytech Marseille, Prépa intégrée (PEIP)
 
 - *Outils mathématiques pour l’ingénieur* — 2<sup>e</sup> année (CM et TD)
 - *Analyse S3* — 2<sup>e</sup> année (CM et TD)  
@@ -26,7 +24,7 @@ anchor-links: false
   [TD4](assets/pdf/teaching/PEIP-TD4.pdf) ·
   [Questions de cours](assets/pdf/teaching/PEIP_cours.pdf)
 
-### Aix-Marseille Université
+#### Aix-Marseille Université
 
 - *Analyse complexe* — M1 (TD)
 - *Analyse S2* — L1 Portail Descartes (TD)  
@@ -38,21 +36,21 @@ anchor-links: false
   [TD6](assets/pdf/teaching/L1_MIASHS_TD6.pdf)
 - *Fonctions d’une ou deux variables* — Licence MIASHS (TD)
 
-## 2021–2022
+### 2021–2022
 
-### Polytech Marseille, Prépa intégrée (PEIP)
+#### Polytech Marseille, Prépa intégrée (PEIP)
 
 - *Outils mathématiques pour l’ingénieur S3* — 2<sup>e</sup> année (CM et TD)  
   [Examen](assets/pdf/teaching/2021_Exam_OMI.pdf) ·
   [Corrigé](assets/pdf/teaching/2021_Exam_OMI_corrig%C3%A9.pdf)
 
-### Aix-Marseille Université
+#### Aix-Marseille Université
 
 - *Analyse complexe* — M1 (TD)
 
-## 2020–2021
+### 2020–2021
 
-### Polytech Marseille, Prépa intégrée (PEIP)
+#### Polytech Marseille, Prépa intégrée (PEIP)
 
 - *Analyse S3* — 2<sup>e</sup> année (CM et TD)  
   [TD Suites récurrentes linéaires](assets/pdf/teaching/2020_TD_suites.pdf) ·
@@ -60,9 +58,9 @@ anchor-links: false
   [TD révisions](assets/pdf/teaching/2020_TD_revisions.pdf) ·
   [Session de rattrapage](assets/pdf/teaching/2020_rattrapages.pdf)
 
-## 2019–2020
+### 2019–2020
 
-### Polytech Marseille, Prépa intégrée (PEIP Accès Santé)
+#### Polytech Marseille, Prépa intégrée (PEIP Accès Santé)
 
 - *Analyse S3* — 2<sup>e</sup> année (CM et TD)  
   [Partiel](assets/pdf/teaching/2019_Partiel.pdf) ·
@@ -70,9 +68,9 @@ anchor-links: false
   [Examen sujet B](assets/pdf/teaching/2019_Examen_B.pdf) ·
   [Session de rattrapage](assets/pdf/teaching/2019_rattrapages.pdf)
 
-## 2016–2018
+### 2016–2018
 
-### CPGE, Lycée Jacques-Decour (Paris)
+#### CPGE, Lycée Jacques-Decour (Paris)
 
 - *Colles de mathématiques* — PCSI
 
