@@ -27,11 +27,9 @@ The course is hosted on my GitHub repository: [mini-course-DL](https://github.co
   
 - [Lesson 4](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson4.ipynb) and [solution](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson4_solution.ipynb) (March 2026)
   - We study training stability in deep networks. In particular, we implement **Batch Normalization** following **Ioffe & Szegedy (2015)** and introduce diagnostics involving activation saturation and update-to-parameter ratios.
-  
 
-
-
-More content soon :)
+- [Lesson 5](https://colab.research.google.com/github/AdamArras/mini-course-DL/blob/main/notebooks/lesson5.ipynb) (April 2026)
+  - Following the foundational paper **Vaswani et al. (2017)**, [Attention Is All You Need](https://arxiv.org/abs/1706.03762), we build a generative pre-trained transformer (GPT) from scratch. We train this decoder-only attention architecture on a small text dataset.
 
 
 ---
