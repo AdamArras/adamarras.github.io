@@ -9,7 +9,7 @@ anchor-links: false
 ### Educational material 
 
 - *[DL-mini-course](https://adamarras.github.io/posts/posts-2/)*  
-  Self-developed tutorials and notes on deep learning while revisiting the subject.  
+  Self-developed mini course on deep learning. We start from a simple one layer perceptron to a complete GPT architecture.  
  
 
 # Teaching experience
