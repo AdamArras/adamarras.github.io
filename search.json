@@ -11,49 +11,28 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "DL mini-course\n\n\n\nDL\n\nPython\n\nCourse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a Personal Website with Quarto\n\n\n\nQuarto\n\nGithub page\n\nAcademic website\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "DL mini-course\n\n\n\nDL\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a Personal Website with Quarto\n\n\n\nQuarto\n\nGithub page\n\nAcademic website\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "DL-mini-course\nSelf-developed mini course on deep learning. We start from a simple one layer perceptron to a complete GPT architecture."
+    "text": "Deep Learning mini-course. We build deep learning architectures from scratch, from a single-layer perceptron up to a full GPT model."
   },
   {
-    "objectID": "teaching.html#section",
-    "href": "teaching.html#section",
+    "objectID": "teaching.html#educational-material",
+    "href": "teaching.html#educational-material",
     "title": "Teaching",
-    "section": "2022–2023",
-    "text": "2022–2023\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nOutils mathématiques pour l’ingénieur — 2e année (CM et TD)\nAnalyse S3 — 2e année (CM et TD)\nTD1 · TD2 · TD3 · TD4 · Questions de cours\n\n\n\nAix-Marseille Université\n\nAnalyse complexe — M1 (TD)\nAnalyse S2 — L1 Portail Descartes (TD)\nTD1 · TD2 · TD3 · TD4 · TD5 · TD6\nFonctions d’une ou deux variables — Licence MIASHS (TD)"
+    "section": "",
+    "text": "Deep Learning mini-course. We build deep learning architectures from scratch, from a single-layer perceptron up to a full GPT model."
   },
   {
-    "objectID": "teaching.html#section-1",
-    "href": "teaching.html#section-1",
+    "objectID": "teaching.html#teaching-experience",
+    "href": "teaching.html#teaching-experience",
     "title": "Teaching",
-    "section": "2021–2022",
-    "text": "2021–2022\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nOutils mathématiques pour l’ingénieur S3 — 2e année (CM et TD)\nExamen · Corrigé\n\n\n\nAix-Marseille Université\n\nAnalyse complexe — M1 (TD)"
-  },
-  {
-    "objectID": "teaching.html#section-2",
-    "href": "teaching.html#section-2",
-    "title": "Teaching",
-    "section": "2020–2021",
-    "text": "2020–2021\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nAnalyse S3 — 2e année (CM et TD)\nTD Suites récurrentes linéaires · Examen · TD révisions · Session de rattrapage"
-  },
-  {
-    "objectID": "teaching.html#section-3",
-    "href": "teaching.html#section-3",
-    "title": "Teaching",
-    "section": "2019–2020",
-    "text": "2019–2020\n\nPolytech Marseille, Prépa intégrée (PEIP Accès Santé)\n\nAnalyse S3 — 2e année (CM et TD)\nPartiel · Examen sujet A · Examen sujet B · Session de rattrapage"
-  },
-  {
-    "objectID": "teaching.html#section-4",
-    "href": "teaching.html#section-4",
-    "title": "Teaching",
-    "section": "2016–2018",
-    "text": "2016–2018\n\nCPGE, Lycée Jacques-Decour (Paris)\n\nColles de mathématiques — PCSI"
+    "section": "Teaching experience",
+    "text": "Teaching experience\n\n2022–2023\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nOutils mathématiques pour l’ingénieur — 2e année (CM et TD)\nAnalyse S3 — 2e année (CM et TD)\nTD1 · TD2 · TD3 · TD4 · Questions de cours\n\n\n\nAix-Marseille Université\n\nAnalyse complexe — M1 (TD)\nAnalyse S2 — L1 Portail Descartes (TD)\nTD1 · TD2 · TD3 · TD4 · TD5 · TD6\nFonctions d’une ou deux variables — Licence MIASHS (TD)\n\n\n\n\n2021–2022\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nOutils mathématiques pour l’ingénieur S3 — 2e année (CM et TD)\nExamen · Corrigé\n\n\n\nAix-Marseille Université\n\nAnalyse complexe — M1 (TD)\n\n\n\n\n2020–2021\n\nPolytech Marseille, Prépa intégrée (PEIP)\n\nAnalyse S3 — 2e année (CM et TD)\nTD Suites récurrentes linéaires · Examen · TD révisions · Session de rattrapage\n\n\n\n\n2019–2020\n\nPolytech Marseille, Prépa intégrée (PEIP Accès Santé)\n\nAnalyse S3 — 2e année (CM et TD)\nPartiel · Examen sujet A · Examen sujet B · Session de rattrapage\n\n\n\n\n2016–2018\n\nCPGE, Lycée Jacques-Decour (Paris)\n\nColles de mathématiques — PCSI"
   },
   {
     "objectID": "posts/posts-1/index.html",
@@ -130,7 +109,7 @@
     "href": "posts/posts-2/index.html",
     "title": "DL mini-course",
     "section": "",
-    "text": "I’m currently revisiting deep learning, and I’ve decided to build a small course alongside it.\nThe course is hosted on my GitHub repository: mini-course-DL. You can run the notebooks directly using Google Colab, without installing anything. The lessons currently available are:\n\nLesson 1\n\nA Python refresher (in French). (Dec 2025)\n\nLesson 2 and solution (Jan 2026)\n\nWe build a one-layer perceptron (linear classifier + softmax) and train it using gradient descent.\n\nLesson 3 and solution (Feb 2026)\n\nFollowing the foundational paper Bengio et al. (2003), A Neural Probabilistic Language Model, we build a Multi-Layer Perceptron with low-dimensional latent representations and train it using random mini-batches.\n\nLesson 4 and solution (March 2026)\n\nWe focus on training stability of deep networks. In particular, we implement Batch Normalization following Ioffe & Szegedy (2015) and introduce diagnostics involving activation saturation and update-to-parameter ratios.\n\nLesson 5 (April 2026)\n\nFollowing the foundational paper Vaswani et al. (2017), Attention Is All You Need, we build a Generative Pre-trained Transformer (GPT) from scratch. We train this decoder-only attention architecture on a small text dataset.\n\n\n\nBonus : une introduction à Pandas en français inspirée de 10 Minutes to Pandas."
+    "text": "I’m currently revisiting deep learning, and I’ve decided to build a course alongside it. The material is hosted on my GitHub repository mini-course-DL. You can run the notebooks without installing anything by using Google Colab.\n\nLesson 1\n\nA Python refresher (in French). (Dec 2025)\n\nLesson 2 and solution (Jan 2026)\n\nWe build a one-layer perceptron (linear classifier + softmax) and train it using gradient descent.\n\nLesson 3 and solution (Feb 2026)\n\nFollowing the foundational paper Bengio et al. (2003), A Neural Probabilistic Language Model, we build a Multi-Layer Perceptron with low-dimensional latent representations and train it using random mini-batches.\n\nLesson 4 and solution (March 2026)\n\nWe focus on training stability of deep networks. In particular, we implement Batch Normalization following Ioffe & Szegedy (2015) and introduce diagnostics involving activation saturation and update-to-parameter ratios.\n\nLesson 5 (April 2026)\n\nFollowing the foundational paper Vaswani et al. (2017), Attention Is All You Need, we build a Generative Pre-trained Transformer (GPT) from scratch. We train this decoder-only attention architecture on a small text dataset.\n\n\n\nBonus : une introduction à Pandas en français inspirée de 10 Minutes to Pandas."
   },
   {
     "objectID": "research.html",
