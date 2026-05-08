@@ -2,7 +2,7 @@ project:
   type: website
   resources:
     - assets/shadoks/
-
+    - assets/pdf/CV2.pdf
 
 website:
   title: "Adam Arras"
