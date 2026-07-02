@@ -3,28 +3,25 @@ title: ""
 toc: false
 ---
 
-![](assets/profile.png){width=220px}
+![](assets/profile_picture.png){width=260px}
 
-
-I am a postdoctoral researcher in the
+I am a mathematician specializing in probability, random graphs and stochastic processes. I am currently a postdoctoral researcher in the
 [DYNASNET](https://dynasnet.renyi.hu/) group at the
 [Alfréd Rényi Institute of Mathematics](https://www.renyi.hu/),
 working with
 [Miklós Abért](https://users.renyi.hu/~abert/).
 
-I completed my PhD at Aix–Marseille University under the supervision of
+I received my PhD in mathematics from Aix–Marseille University under the supervision of
 [Charles Bordenave](https://www.i2m.univ-amu.fr/perso/charles.bordenave/),
 after graduating from École normale supérieure Paris-Saclay
-(formerly ENS Cachan, Master
-[MVA](https://www.master-mva.com/)).
+and the
+[MVA master's programme](https://www.master-mva.com/).
 
-My research lies at the intersection of probability, geometry,
-and spectral analysis, with a focus on large random graphs and
-complex networks.
+My research combines probability, spectral methods and network science, with a focus on random graphs, Markov chains and stochastic processes. More broadly, I am interested in scientific computing, machine learning and quantitative modelling.
 
 ---
 
-**Contact:** `arras@renyi.hu`
+**Email:** `arras@renyi.hu`
 
 &nbsp;
 <a href="https://arxiv.org/search/?searchtype=author&query=Arras%2C+A" aria-label="arXiv">
@@ -38,12 +35,4 @@ complex networks.
 <a href="https://www.linkedin.com/in/adam-arras" aria-label="LinkedIn">
   <i class="fab fa-linkedin"></i>
 </a>
-
-<!--
-&nbsp;
-<a href="https://scholar.google.com/citations?user=YOUR_ID" aria-label="Google Scholar">
-  <i class="ai ai-google-scholar"></i>
-</a>
--->
-
 

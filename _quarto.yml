@@ -31,7 +31,7 @@ date-format: "MMMM YYYY"
 
 format:
   html:
-    theme: slate
+    theme: cosmo
     mathjax: true
     css: styles.css
     include-in-header:
