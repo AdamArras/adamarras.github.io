@@ -1,6 +1,6 @@
 ---
 title: "Creating a Personal Website with Quarto"
-description: ""
+description: "How I built this website using Quarto and GitHub Pages."
 author: "Adam"
 categories: [Quarto, Github page, Academic website]
 image: post1-thumbnail.png

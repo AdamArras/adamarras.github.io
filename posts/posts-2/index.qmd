@@ -1,6 +1,6 @@
 ---
 title: "DL mini-course"
-description: ""
+description: "Implementing neural networks from scratch with PyTorch."
 author: "Adam"
 categories: [DL, Python]
 image: post2-thumbnail.png

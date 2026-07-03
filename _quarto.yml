@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Adam Arras"
-  description: "Research, notes, and teaching"
+  description: "Mathematics, probability, research and teaching"
   favicon: favicon.png
   navbar:
     left:

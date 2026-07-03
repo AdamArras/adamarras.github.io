@@ -1,35 +1,30 @@
 ---
 title: "CV"
 toc: false
-page-layout: full
 ---
 
-## Positions
+## Experience
 
-- **2023–Present** — Postdoctoral Researcher,  
-  [DYNASNET](https://dynasnet.renyi.hu/),  
-  [Alfréd Rényi Institute of Mathematics](https://www.renyi.hu/), Budapest
+**Postdoctoral Researcher** (2023–Present)  
+DYNASNET, Alfréd Rényi Institute of Mathematics, Budapest
 
-- **2022–2023** — Teaching and Research Assistant (ATER),  
-  Aix–Marseille University, Marseille
+**Scientific Consultant** (2025–2026)  
+[Research To Business](https://rtob.net/), Paris  
 
-- **2019–2023** — PhD in Mathematics,  
-  Institut de Mathématiques de Marseille  
+**Teaching and Research Assistant (ATER)** (2022–2023)  
+Aix–Marseille University
 
 ## Education
 
-- **2015–2019** — École Normale Supérieure Paris-Saclay  
-  (formerly ENS Cachan)
+- **PhD in Mathematics** (2019–2023)  
+  Aix–Marseille University
 
-  - **2018–2019** — Pre-doctoral research year abroad,  
-    [School of Mathematics](https://math.gatech.edu/),  
-    Georgia Institute of Technology, Atlanta
+- **École normale supérieure Paris-Saclay** (2015–2019)
 
-  - **2017–2018** — Master  
-    [MVA — Mathématiques, Vision, Apprentissage](https://www.master-mva.com/)
+- **Master MVA** (2017–2018)  
+  Mathematics, Vision and Machine Learning
 
 ---
 
-Here is a brief [CV](assets/pdf/CV.pdf).
-
+<i class="far fa-file-pdf"></i> [PDF version](assets/pdf/CV_ARRAS_ADAM.pdf)
 

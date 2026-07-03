@@ -5,7 +5,7 @@ toc: false
 
 ![](assets/profile_picture.png){width=260px}
 
-I am a mathematician specializing in probability, random graphs and stochastic processes. I am currently a postdoctoral researcher in the
+I am a mathematician specializing in probability. I am currently a postdoctoral researcher in the
 [DYNASNET](https://dynasnet.renyi.hu/) group at the
 [Alfréd Rényi Institute of Mathematics](https://www.renyi.hu/),
 working with
@@ -17,7 +17,7 @@ after graduating from École normale supérieure Paris-Saclay
 and the
 [MVA master's programme](https://www.master-mva.com/).
 
-My research combines probability, spectral methods and network science, with a focus on random graphs, Markov chains and stochastic processes. More broadly, I am interested in scientific computing, machine learning and quantitative modelling.
+My research combines spectral methods and network science, with a focus on random graphs, Markov chains and stochastic processes. More broadly, I am interested in scientific computing and machine learning.
 
 ---
 

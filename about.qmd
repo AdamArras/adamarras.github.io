@@ -19,10 +19,10 @@ Among them, I particularly recommend:
 - Frederic P. Schuller’s course on the
   [mathematical foundations of theoretical physics](https://mathvideos.org/2015/frederic-schuller-lectures-on-geometrical-anatomy-of-theoretical-physics/)
 
-**AI**
+**Machine learning and data analysis**
 
-- Jeremy Howard and Sylvain Gugger’s
-  [*Practical Deep Learning for Coders*](https://course.fast.ai/)
+- Aurélien Géron’s *[Hands-On Machine Learning with Scikit-Learn and PyTorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/)*
+- Jeremy Howard and Sylvain Gugger’s *[Practical Deep Learning for Coders](https://course.fast.ai/)*
 
 ## Science outreach
 
@@ -40,24 +40,20 @@ The slides from my presentation, intended for high school students
 A selection of books I have particularly enjoyed.
 I would be happy to receive recommendations in a similar spirit.
 
-- Albert Lautman : *La pensée mathématique et la réalité physique* (1952)
-- Richard P. Feynman, Robert B. Leighton, Matthew Sands :  
+- Albert Lautman: *La pensée mathématique et la réalité physique* (1952)
+- Richard P. Feynman, Robert B. Leighton, Matthew Sands:  
   *The Feynman Lectures on Physics* (1964)
-- Saunders Mac Lane : *Mathematics: Form and Function* (1986)
+- Saunders Mac Lane: *Mathematics: Form and Function* (1986)
 - Donella H. Meadows, Dennis L. Meadows, Jørgen Randers,  
-  William W. Behrens : *The Limits to Growth* (1972)
+  William W. Behrens: *The Limits to Growth* (1972)
+  
+## Miscellaneous
 
-## 
-
-- Y.-J. Ringard : [Mustard Watches](https://girard.perso.math.cnrs.fr/mustard/article.html)
-
-##
+- Y.-J. Ringard: [Mustard Watches](https://girard.perso.math.cnrs.fr/mustard/article.html)
 
 This website is built using [Quarto](https://quarto.org), an open-source, Markdown-based system for scientific and technical publishing.
 
 See my [blog post](/posts/posts-1/) on setting up an academic website with Quarto and GitHub Pages.
-
-## 
 
 <div id="random-shadok" style="text-align:center; margin: 2rem 0;"></div>
 

@@ -3,23 +3,9 @@ title: "Research"
 toc: false
 ---
 
+My research focuses on probability, random graphs, stochastic processes and spectral methods, with applications to large-scale networks.
+
 ![](assets/research_picture.png){width=220px}
-
-I am a postdoctoral researcher in the
-[DYNASNET](https://dynasnet.renyi.hu/) group at the
-[Alfréd Rényi Institute of Mathematics](https://www.renyi.hu/),
-working with
-[Miklós Abért](https://users.renyi.hu/~abert/).
-
-I completed my PhD at Aix–Marseille University under the supervision of
-[Charles Bordenave](https://www.i2m.univ-amu.fr/perso/charles.bordenave/),
-after graduating from École normale supérieure Paris-Saclay
-(formerly ENS Cachan, Master
-[MVA](https://www.master-mva.com/)).
-
-My research lies at the intersection of probability, geometry,
-and spectral analysis, with a focus on large random graphs and
-complex networks.
 
 ## Publications and Preprints
 

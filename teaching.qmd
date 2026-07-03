@@ -1,16 +1,11 @@
 ---
 title: Teaching
 page-layout: full
-toc: true
-toc-location: right
+toc: false
 anchor-links: false
 ---
 
-## Educational material
-
-- *[Deep Learning mini-course](https://adamarras.github.io/posts/posts-2/)*.  We build deep learning architectures from scratch, from a single-layer perceptron up to a full GPT model. 
-
-## Teaching experience
+**[Deep Learning mini-course](https://adamarras.github.io/posts/posts-2/)**: Jupyter notebooks introducing deep learning architectures from scratch, from a single-layer perceptron to a GPT model, using PyTorch.
 
 ### 2022–2023
 
