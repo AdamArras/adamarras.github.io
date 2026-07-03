@@ -10,14 +10,12 @@ website:
   favicon: favicon.png
   navbar:
     left:
-      - text: Home
-        href: index.qmd
       - text: Research
         href: research.qmd
-      - text: Teaching
-        href: teaching.qmd
       - text: CV
         href: CV.qmd
+      - text: Teaching
+        href: teaching.qmd
       - text: Blog
         href: blog.qmd
       - text: About
