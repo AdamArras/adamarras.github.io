@@ -130,14 +130,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Since completing the MVA Master’s program, I have also followed developments in technology and AI, mainly through Hacker News.\nThere are several high-quality online courses freely available. Among them, I particularly recommend:\nMathematics and physics\n\nXavier Viennot’s course on bijective combinatorics\nFrederic P. Schuller’s course on the mathematical foundations of theoretical physics\n\nMachine learning and data analysis\n\nAurélien Géron’s Hands-On Machine Learning with Scikit-Learn and PyTorch\nJeremy Howard and Sylvain Gugger’s Practical Deep Learning for Coders"
+    "text": "Since completing the MVA Master’s program, I have also followed developments in technology and AI, mainly through Hacker News.\nThere are several high-quality online courses, books and articles freely available. Among them, I particularly recommend:\nMathematics and physics\n\nXavier Viennot’s course on bijective combinatorics\nFrederic P. Schuller’s course on the mathematical foundations of theoretical physics\nJohn Baez’s What Is Entropy?\n\nMachine learning\n\nAurélien Géron’s Hands-On Machine Learning with Scikit-Learn and PyTorch\nJeremy Howard and Sylvain Gugger’s Practical Deep Learning for Coders\nFrançois Fleuret’s The Little Book of Deep Learning\nA review of the history of diffusion models"
   },
   {
     "objectID": "about.html#online-content",
     "href": "about.html#online-content",
     "title": "About",
     "section": "",
-    "text": "Since completing the MVA Master’s program, I have also followed developments in technology and AI, mainly through Hacker News.\nThere are several high-quality online courses freely available. Among them, I particularly recommend:\nMathematics and physics\n\nXavier Viennot’s course on bijective combinatorics\nFrederic P. Schuller’s course on the mathematical foundations of theoretical physics\n\nMachine learning and data analysis\n\nAurélien Géron’s Hands-On Machine Learning with Scikit-Learn and PyTorch\nJeremy Howard and Sylvain Gugger’s Practical Deep Learning for Coders"
+    "text": "Since completing the MVA Master’s program, I have also followed developments in technology and AI, mainly through Hacker News.\nThere are several high-quality online courses, books and articles freely available. Among them, I particularly recommend:\nMathematics and physics\n\nXavier Viennot’s course on bijective combinatorics\nFrederic P. Schuller’s course on the mathematical foundations of theoretical physics\nJohn Baez’s What Is Entropy?\n\nMachine learning\n\nAurélien Géron’s Hands-On Machine Learning with Scikit-Learn and PyTorch\nJeremy Howard and Sylvain Gugger’s Practical Deep Learning for Coders\nFrançois Fleuret’s The Little Book of Deep Learning\nA review of the history of diffusion models"
   },
   {
     "objectID": "about.html#science-outreach",
@@ -158,6 +158,6 @@
     "href": "about.html#miscellaneous",
     "title": "About",
     "section": "Miscellaneous",
-    "text": "Miscellaneous\n\nY.-J. Ringard: Mustard Watches\n\nThis website is built using Quarto, an open-source, Markdown-based system for scientific and technical publishing.\nSee my blog post on setting up an academic website with Quarto and GitHub Pages."
+    "text": "Miscellaneous\n\nY.-J. Ringard: Mustard Watches\nHow I Read Your Tutorial (as a Beginner)\nBartosz Ciechanowski’s Lights and Shadows\n\nThis website is built using Quarto, an open-source, Markdown-based system for scientific and technical publishing.\nSee my blog post on setting up an academic website with Quarto and GitHub Pages."
   }
 ]
