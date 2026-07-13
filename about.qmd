@@ -9,7 +9,7 @@ Since completing the MVA Master’s program, I have also followed
 developments in technology and AI, mainly through
 [Hacker News](https://news.ycombinator.com).
 
-There are several high-quality online courses freely available.
+There are several high-quality online courses, books and articles freely available.
 Among them, I particularly recommend:
 
 **Mathematics and physics**
@@ -18,11 +18,19 @@ Among them, I particularly recommend:
   [bijective combinatorics](https://www.viennot.org/abjc.html)
 - Frederic P. Schuller’s course on the
   [mathematical foundations of theoretical physics](https://mathvideos.org/2015/frederic-schuller-lectures-on-geometrical-anatomy-of-theoretical-physics/)
+- John Baez’s
+  [*What Is Entropy?*](https://math.ucr.edu/home/baez/what_is_entropy/index.html)
 
-**Machine learning and data analysis**
+**Machine learning**
 
-- Aurélien Géron’s *[Hands-On Machine Learning with Scikit-Learn and PyTorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/)*
-- Jeremy Howard and Sylvain Gugger’s *[Practical Deep Learning for Coders](https://course.fast.ai/)*
+- Aurélien Géron’s
+  *[Hands-On Machine Learning with Scikit-Learn and PyTorch](https://www.oreilly.com/library/view/hands-on-machine-learning/9798341607972/)*
+- Jeremy Howard and Sylvain Gugger’s
+  *[Practical Deep Learning for Coders](https://course.fast.ai/)*
+- François Fleuret’s
+  *[The Little Book of Deep Learning](https://fleuret.org/public/lbdl.pdf)*
+- A review of the history of
+  [diffusion models](https://baincapitalventures.notion.site/Diffusion-Without-Tears-14e1469584c180deb0a9ed9aa6ff7a4c)
 
 ## Science outreach
 
@@ -50,6 +58,9 @@ I would be happy to receive recommendations in a similar spirit.
 ## Miscellaneous
 
 - Y.-J. Ringard: [Mustard Watches](https://girard.perso.math.cnrs.fr/mustard/article.html)
+- [How I Read Your Tutorial (as a Beginner)](https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner)
+- Bartosz Ciechanowski’s
+  [*Lights and Shadows*](https://ciechanow.ski/lights-and-shadows/)
 
 This website is built using [Quarto](https://quarto.org), an open-source, Markdown-based system for scientific and technical publishing.
 
