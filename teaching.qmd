@@ -7,6 +7,12 @@ anchor-links: false
 
 **[Deep Learning mini-course](https://adamarras.github.io/posts/posts-2/)**: Jupyter notebooks introducing deep learning architectures from scratch, from a single-layer perceptron to a GPT model, using PyTorch.
 
+### 2026–2027
+
+#### Budapest University of Technology and Economics
+
+- [*Calculus*](https://www.ttk.bme.hu/BMETE92AP61) — 1st-year Physics students (Tutorials, Fall semester)
+
 ### 2022–2023
 
 #### Polytech Marseille, Prépa intégrée (PEIP)

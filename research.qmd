@@ -39,6 +39,7 @@ My research focuses on probability, random graphs, stochastic processes and spec
 ## Talks
 
 ### 2026
+- Research Seminar, Budapest University of Technology and Economics (BME), 8 October
 - GDR [MEGA](https://www.ceremade.dauphine.fr/dokuwiki/mega:start) (upcoming)
 - Probability Seminar, MODAL’X, 22 May, Université Paris Nanterre
 - Research School [LOUCCOUM](https://conferences.cirm-math.fr/3548.html), 8–12 June, CIRM, Marseille
